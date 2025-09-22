@@ -7,7 +7,7 @@
 			"type": "Kindred Sorcery — Rabbit",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/15_Unified Quest.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/15_Unified Quest.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Creature — Rabbit Scout",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/11_Prairie Seer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/11_Prairie Seer.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Creature — Bird Scout",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/14_Sturdy Quail.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/14_Sturdy Quail.png"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Sorcery",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/27_Send Correspondence.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/27_Send Correspondence.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Creature — Rat Rogue",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/17_Confessed Glutton.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/17_Confessed Glutton.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Kindred Sorcery — Otter",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/24_Otter Foolishness.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/24_Otter Foolishness.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Creature — Bird Soldier",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/21_Feathered Mentors.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/21_Feathered Mentors.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Creature — Lizard Warrior",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/43_Scaleblade Bandit.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/43_Scaleblade Bandit.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Creature — Rat Rogue",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/31_Alley Stabber.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/31_Alley Stabber.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Creature — Lizard Rogue",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/37_Fisherlizard.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/37_Fisherlizard.png"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Creature — Bat Warlock",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/32_Bat Necromancer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/32_Bat Necromancer.png"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Creature — Rat Scout",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/40_Lookout Rat.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/40_Lookout Rat.png"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Creature — Lizard Wizard",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/51_Pyromaniac Looter.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/51_Pyromaniac Looter.png"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Creature — Mouse Archer",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/46_Accurate Archer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/46_Accurate Archer.png"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Creature — Raccoon Rogue",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/56_Roof Intruder.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/56_Roof Intruder.png"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Creature — Rabbit Druid",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/63_Autumnveil Druid.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/63_Autumnveil Druid.png"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"type": "Creature — Rabbit Warrior",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/70_Hare Pack.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/70_Hare Pack.png"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			"type": "Creature — Squirrel Ninja",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/68_Glider Shinobi.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/68_Glider Shinobi.png"
 			}
 		},
 		{
@@ -187,7 +187,7 @@
 			"type": "Creature — Frog Druid",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/73_Potion Maker.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/73_Potion Maker.png"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Creature — Raccoon Warrior",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/67_Forest Gatekeeper.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/67_Forest Gatekeeper.png"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"type": "Creature — Mouse Warrior",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/3_Burrow Patriot.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/3_Burrow Patriot.png"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			"type": "Creature — Bird Soldier",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/7_Leading Squadron.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/7_Leading Squadron.png"
 			}
 		},
 		{
@@ -227,7 +227,7 @@
 			"type": "Creature — Lizard Soldier",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/54_Reptilian Lancer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/54_Reptilian Lancer.png"
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 			"type": "Creature — Raccoon Bard",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/52_Raccoon Celebrant.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/52_Raccoon Celebrant.png"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 			"type": "Creature — Frog Bard",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/28_Singing Frog.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/28_Singing Frog.png"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 			"type": "Creature — Otter Wizard",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/16_Bell-Bearer Otter.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/16_Bell-Bearer Otter.png"
 			}
 		},
 		{
@@ -267,7 +267,7 @@
 			"type": "Creature — Lizard Warrior",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/39_Intimidating Gecko.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/39_Intimidating Gecko.png"
 			}
 		},
 		{
@@ -277,7 +277,7 @@
 			"type": "Creature — Lizard Rogue",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/57_Runaway Messenger.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/57_Runaway Messenger.png"
 			}
 		},
 		{
@@ -287,7 +287,7 @@
 			"type": "Creature — Bat Cleric",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/6_Incense Spreader.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/6_Incense Spreader.png"
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 			"type": "Creature — Rat Warlock",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/36_Cursed Skitterling.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/36_Cursed Skitterling.png"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"type": "Creature — Bat Warlock",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/33_Bloodwing Teether.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/33_Bloodwing Teether.png"
 			}
 		},
 		{
@@ -317,7 +317,7 @@
 			"type": "Creature — Otter Scout",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/26_Seaside Seeker.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/26_Seaside Seeker.png"
 			}
 		},
 		{
@@ -327,7 +327,7 @@
 			"type": "Creature — Bat Cleric",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/10_Nightfang Healer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/10_Nightfang Healer.png"
 			}
 		},
 		{
@@ -337,7 +337,7 @@
 			"type": "Creature — Mouse Warrior",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/47_Battle-Squealer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/47_Battle-Squealer.png"
 			}
 		},
 		{
@@ -347,7 +347,7 @@
 			"type": "Creature — Mouse Warrior",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/4_Deathrattle Mouse.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/4_Deathrattle Mouse.png"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 			"type": "Creature — Mouse Pirate",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/50_Inspiring Buccaneer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/50_Inspiring Buccaneer.png"
 			}
 		},
 		{
@@ -367,7 +367,7 @@
 			"type": "Creature — Frog Scout",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/23_Jumping Adventurer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/23_Jumping Adventurer.png"
 			}
 		},
 		{
@@ -377,7 +377,7 @@
 			"type": "Creature — Mouse Soldier",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/8_Lupinflower Sentinel.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/8_Lupinflower Sentinel.png"
 			}
 		},
 		{
@@ -387,7 +387,7 @@
 			"type": "Creature — Squirrel Soldier",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/34_Branch Patrol.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/34_Branch Patrol.png"
 			}
 		},
 		{
@@ -397,7 +397,7 @@
 			"type": "Creature — Frog Bard",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/66_Event Cheerleader.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/66_Event Cheerleader.png"
 			}
 		},
 		{
@@ -407,7 +407,7 @@
 			"type": "Creature — Otter Wizard",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/60_Sparkmage Weaver.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/60_Sparkmage Weaver.png"
 			}
 		},
 		{
@@ -417,7 +417,7 @@
 			"type": "Creature — Rat Rogue",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/25_Redcap Rat.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/25_Redcap Rat.png"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 			"type": "Creature — Frog Knight",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/18_Croaknight.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/18_Croaknight.png"
 			}
 		},
 		{
@@ -437,7 +437,7 @@
 			"type": "Creature — Raccoon Warrior",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/75_Stucked Scavenger.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/75_Stucked Scavenger.png"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 			"type": "Kindred Sorcery — Otter",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/49_Fishmonger's Work.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/49_Fishmonger's Work.png"
 			}
 		},
 		{
@@ -457,7 +457,7 @@
 			"type": "Creature — Hamster Warrior",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/1_Battlefield Supplier.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/1_Battlefield Supplier.png"
 			}
 		},
 		{
@@ -467,7 +467,7 @@
 			"type": "Enchantment",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/12_Prosecute.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/12_Prosecute.png"
 			}
 		},
 		{
@@ -477,7 +477,7 @@
 			"type": "Instant",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/5_Imposing Ascent.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/5_Imposing Ascent.png"
 			}
 		},
 		{
@@ -487,7 +487,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/30_Take Out for a Ride.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/30_Take Out for a Ride.png"
 			}
 		},
 		{
@@ -497,7 +497,7 @@
 			"type": "Instant",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/2_Beat Up Together.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/2_Beat Up Together.png"
 			}
 		},
 		{
@@ -507,7 +507,7 @@
 			"type": "Enchantment",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/59_Sibling Spat.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/59_Sibling Spat.png"
 			}
 		},
 		{
@@ -517,7 +517,7 @@
 			"type": "Instant",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/20_Expel from the Town.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/20_Expel from the Town.png"
 			}
 		},
 		{
@@ -527,7 +527,7 @@
 			"type": "Enchantment",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/64_Digging for Snacks.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/64_Digging for Snacks.png"
 			}
 		},
 		{
@@ -537,7 +537,7 @@
 			"type": "Instant",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/55_Rodent's Fireball.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/55_Rodent's Fireball.png"
 			}
 		},
 		{
@@ -547,7 +547,7 @@
 			"type": "Instant",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/45_Stinky Stance.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/45_Stinky Stance.png"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 			"type": "Sorcery",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/44_Squeak for Answers.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/44_Squeak for Answers.png"
 			}
 		},
 		{
@@ -567,7 +567,7 @@
 			"type": "Instant",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/22_Flashborn.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/22_Flashborn.png"
 			}
 		},
 		{
@@ -577,7 +577,7 @@
 			"type": "Creature — Squirrel Scout",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/35_Bushy Wayfinder.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/35_Bushy Wayfinder.png"
 			}
 		},
 		{
@@ -587,7 +587,7 @@
 			"type": "Instant",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/42_Plundering Stab.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/42_Plundering Stab.png"
 			}
 		},
 		{
@@ -597,7 +597,7 @@
 			"type": "Sorcery",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/38_From Behind.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/38_From Behind.png"
 			}
 		},
 		{
@@ -607,7 +607,7 @@
 			"type": "Sorcery",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/41_Piercing Eyes.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/41_Piercing Eyes.png"
 			}
 		},
 		{
@@ -617,7 +617,7 @@
 			"type": "Sorcery",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/69_Glimpse the Horizon.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/69_Glimpse the Horizon.png"
 			}
 		},
 		{
@@ -627,7 +627,7 @@
 			"type": "Instant",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/65_Drop Down.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/65_Drop Down.png"
 			}
 		},
 		{
@@ -637,7 +637,7 @@
 			"type": "Instant",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/48_Break the Branch.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/48_Break the Branch.png"
 			}
 		},
 		{
@@ -647,7 +647,7 @@
 			"type": "Instant",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/58_Salamander's Firepalm.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/58_Salamander's Firepalm.png"
 			}
 		},
 		{
@@ -657,7 +657,7 @@
 			"type": "Instant",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/62_Acorn Strength.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/62_Acorn Strength.png"
 			}
 		},
 		{
@@ -667,7 +667,7 @@
 			"type": "Artifact Creature — Shapeshifter",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/79_Sunbaked Paperhorns.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/79_Sunbaked Paperhorns.png"
 			}
 		},
 		{
@@ -677,7 +677,7 @@
 			"type": "Artifact Creature — Shapeshifter",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/77_Folk of Paperwings.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/77_Folk of Paperwings.png"
 			}
 		},
 		{
@@ -687,7 +687,7 @@
 			"type": "Land",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/90_Tranquil Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/90_Tranquil Village.png"
 			}
 		},
 		{
@@ -697,7 +697,7 @@
 			"type": "Land",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/89_Tile Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/89_Tile Village.png"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 			"type": "Land",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/86_Praire Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/86_Praire Village.png"
 			}
 		},
 		{
@@ -717,7 +717,7 @@
 			"type": "Land",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/91_Underforest Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/91_Underforest Village.png"
 			}
 		},
 		{
@@ -727,7 +727,7 @@
 			"type": "Land",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/83_Dam Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/83_Dam Village.png"
 			}
 		},
 		{
@@ -737,7 +737,7 @@
 			"type": "Land",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/84_Meadow Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/84_Meadow Village.png"
 			}
 		},
 		{
@@ -747,7 +747,7 @@
 			"type": "Artifact",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/80_Unstable Sphere.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/80_Unstable Sphere.png"
 			}
 		},
 		{
@@ -757,7 +757,7 @@
 			"type": "Land",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/82_Cave Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/82_Cave Village.png"
 			}
 		},
 		{
@@ -767,7 +767,7 @@
 			"type": "Land",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/88_Shadowcloaked Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/88_Shadowcloaked Village.png"
 			}
 		},
 		{
@@ -777,7 +777,7 @@
 			"type": "Land",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/85_Pond Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/85_Pond Village.png"
 			}
 		},
 		{
@@ -787,7 +787,7 @@
 			"type": "Land",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/87_Sewers Village.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/87_Sewers Village.png"
 			}
 		},
 		{
@@ -797,7 +797,7 @@
 			"type": "Land",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/81_Fabled Landscape.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/81_Fabled Landscape.png"
 			}
 		},
 		{
@@ -807,7 +807,7 @@
 			"type": "Artifact",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/78_Revitalizing Potion.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/78_Revitalizing Potion.png"
 			}
 		},
 		{
@@ -817,7 +817,7 @@
 			"type": "Basic Land — Plains",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/92_Plains.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/92_Plains.png"
 			}
 		},
 		{
@@ -827,7 +827,7 @@
 			"type": "Basic Land — Forest",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/96_Forest.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/96_Forest.png"
 			}
 		},
 		{
@@ -837,7 +837,7 @@
 			"type": "Basic Land — Island",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/93_Island.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/93_Island.png"
 			}
 		},
 		{
@@ -847,7 +847,7 @@
 			"type": "Basic Land — Mountain",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/95_Mountain.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/95_Mountain.png"
 			}
 		},
 		{
@@ -857,7 +857,7 @@
 			"type": "Basic Land — Swamp",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/94_Swamp.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/94_Swamp.png"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"type": "Artifact Creature — Wall",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/76_Defensive Palisade.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/76_Defensive Palisade.png"
 			}
 		},
 		{
@@ -877,7 +877,7 @@
 			"type": "Creature — Rabbit Wizard",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/13_Scaredy Duo.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/13_Scaredy Duo.png"
 			}
 		},
 		{
@@ -887,7 +887,7 @@
 			"type": "Creature — Frog Warrior",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/72_Pond Dweller.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/72_Pond Dweller.png"
 			}
 		},
 		{
@@ -897,7 +897,7 @@
 			"type": "Creature — Squirrel Warrior",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/61_Acorn Brawler.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/61_Acorn Brawler.png"
 			}
 		},
 		{
@@ -907,7 +907,7 @@
 			"type": "Instant",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/9_Mice's Slash.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/9_Mice's Slash.png"
 			}
 		},
 		{
@@ -917,7 +917,7 @@
 			"type": "Instant",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/19_Deny Order.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/19_Deny Order.png"
 			}
 		},
 		{
@@ -927,7 +927,7 @@
 			"type": "Instant",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/71_Joint Attack.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/71_Joint Attack.png"
 			}
 		},
 		{
@@ -937,7 +937,7 @@
 			"type": "Instant",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/53_Reckless Fall.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/53_Reckless Fall.png"
 			}
 		},
 		{
@@ -947,7 +947,7 @@
 			"type": "Creature — Squirrel Ranger",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/74_Ranger Cadet.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/74_Ranger Cadet.png"
 			}
 		},
 		{
@@ -957,7 +957,7 @@
 			"type": "Creature — Bird Bard",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/bla-files/img/29_Startled Ringer.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/29_Startled Ringer.png"
 			}
 		},
 	]
