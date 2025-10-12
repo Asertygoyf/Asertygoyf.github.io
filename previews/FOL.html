@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/FOL-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>FOL visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/FOL-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLA-files/icon.png" />
+		<img class="preload-hidden" src="/sets/FOL-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLA"><img src="/sets/BLA-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="FOL"><img src="/sets/FOL-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/FOL-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\FOL-files\img\26_Kinsbaile Instigator.png" id="26_Kinsbaile Instigator" data-flag="@N" onclick="openSidebar('26_Kinsbaile Instigator',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\65_Oona's Awake.png" id="65_Oonas Awake" data-flag="@N" onclick="openSidebar('65_Oonas Awake',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\98_Fae of Sweet Lies.png" id="98_Fae of Sweet Lies" data-flag="@N" onclick="openSidebar('98_Fae of Sweet Lies',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\124_Ashiok's Stabbers.png" id="124_Ashioks Stabbers" data-flag="@N" onclick="openSidebar('124_Ashioks Stabbers',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\184_Horned King.png" id="184_Horned King" data-flag="@N" onclick="openSidebar('184_Horned King',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\44_Sundawn Antler.png" id="44_Sundawn Antler" data-flag="@N" onclick="openSidebar('44_Sundawn Antler',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\80_Stonybrook Seer.png" id="80_Stonybrook Seer" data-flag="@N" onclick="openSidebar('80_Stonybrook Seer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\114_Pillar of Nightmares.png" id="114_Pillar of Nightmares" data-flag="@N" onclick="openSidebar('114_Pillar of Nightmares',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\150_Knollspine Nightmare.png" id="150_Knollspine Nightmare" data-flag="@N" onclick="openSidebar('150_Knollspine Nightmare',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\192_Myth, Mossbridge Champion.png" id="192_Myth, Mossbridge Champion" data-flag="@N" onclick="openSidebar('192_Myth, Mossbridge Champion',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\7_Austere Fable.png" id="7_Austere Fable" data-flag="@N" onclick="openSidebar('7_Austere Fable',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\47_Crawling Changeling.png" id="47_Crawling Changeling" data-flag="@N" onclick="openSidebar('47_Crawling Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\85_Ashenmoor Arsonist.png" id="85_Ashenmoor Arsonist" data-flag="@N" onclick="openSidebar('85_Ashenmoor Arsonist',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\127_Boggart Charge.png" id="127_Boggart Charge" data-flag="@N" onclick="openSidebar('127_Boggart Charge',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\167_Changeling Sovereign.png" id="167_Changeling Sovereign" data-flag="@N" onclick="openSidebar('167_Changeling Sovereign',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\9_Burrenton Repel.png" id="9_Burrenton Repel" data-flag="@N" onclick="openSidebar('9_Burrenton Repel',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\48_Crowd Deception.png" id="48_Crowd Deception" data-flag="@N" onclick="openSidebar('48_Crowd Deception',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\86_Ashling's Seize.png" id="86_Ashlings Seize" data-flag="@N" onclick="openSidebar('86_Ashlings Seize',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\129_Boggart Thief.png" id="129_Boggart Thief" data-flag="@N" onclick="openSidebar('129_Boggart Thief',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\168_Cultivating Walker.png" id="168_Cultivating Walker" data-flag="@N" onclick="openSidebar('168_Cultivating Walker',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\11_Burrenton Watch.png" id="11_Burrenton Watch" data-flag="@N" onclick="openSidebar('11_Burrenton Watch',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\49_Cryptic Fable.png" id="49_Cryptic Fable" data-flag="@N" onclick="openSidebar('49_Cryptic Fable',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\87_Aunt's Bidding.png" id="87_Aunts Bidding" data-flag="@N" onclick="openSidebar('87_Aunts Bidding',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\131_Boosted Boggarts.png" id="131_Boosted Boggarts" data-flag="@N" onclick="openSidebar('131_Boosted Boggarts',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\169_Doran's Scion.png" id="169_Dorans Scion" data-flag="@N" onclick="openSidebar('169_Dorans Scion',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\24_Healing Dictate.png" id="24_Healing Dictate" data-flag="@N" onclick="openSidebar('24_Healing Dictate',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\57_Kindred Adaptation.png" id="57_Kindred Adaptation" data-flag="@N" onclick="openSidebar('57_Kindred Adaptation',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\89_Coffer Eyeblight.png" id="89_Coffer Eyeblight" data-flag="@N" onclick="openSidebar('89_Coffer Eyeblight',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\134_Cloverdell Terror.png" id="134_Cloverdell Terror" data-flag="@N" onclick="openSidebar('134_Cloverdell Terror',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\172_Eyebligh Winnower.png" id="172_Eyebligh Winnower" data-flag="@N" onclick="openSidebar('172_Eyebligh Winnower',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\27_Kithkin Farmer.png" id="27_Kithkin Farmer" data-flag="@N" onclick="openSidebar('27_Kithkin Farmer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\58_Lord of the River.png" id="58_Lord of the River" data-flag="@N" onclick="openSidebar('58_Lord of the River',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\99_Fetid Changeling.png" id="99_Fetid Changeling" data-flag="@N" onclick="openSidebar('99_Fetid Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\145_Heatdeer Shimmer.png" id="145_Heatdeer Shimmer" data-flag="@N" onclick="openSidebar('145_Heatdeer Shimmer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\173_Eyeblight Cavalier.png" id="173_Eyeblight Cavalier" data-flag="@N" onclick="openSidebar('173_Eyeblight Cavalier',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\29_March Leader.png" id="29_March Leader" data-flag="@N" onclick="openSidebar('29_March Leader',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\71_Riftborn Fae.png" id="71_Riftborn Fae" data-flag="@N" onclick="openSidebar('71_Riftborn Fae',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\106_Mistveil Guardian.png" id="106_Mistveil Guardian" data-flag="@N" onclick="openSidebar('106_Mistveil Guardian',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\146_Illulia, Flamekin Soulstoke.png" id="146_Illulia, Flamekin Soulstoke" data-flag="@N" onclick="openSidebar('146_Illulia, Flamekin Soulstoke',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\181_Gilt-Leaf Naturist.png" id="181_Gilt-Leaf Naturist" data-flag="@N" onclick="openSidebar('181_Gilt-Leaf Naturist',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\30_Meadowalker.png" id="30_Meadowalker" data-flag="@N" onclick="openSidebar('30_Meadowalker',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\79_The Squadron Clique.png" id="79_The Squadron Clique" data-flag="@N" onclick="openSidebar('79_The Squadron Clique',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\107_Nightmare Tendrils.png" id="107_Nightmare Tendrils" data-flag="@N" onclick="openSidebar('107_Nightmare Tendrils',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\147_Incendiary Fable.png" id="147_Incendiary Fable" data-flag="@N" onclick="openSidebar('147_Incendiary Fable',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\183_Gowud, Death Worshiper.png" id="183_Gowud, Death Worshiper" data-flag="@N" onclick="openSidebar('183_Gowud, Death Worshiper',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\33_Oneiric Changeling.png" id="33_Oneiric Changeling" data-flag="@N" onclick="openSidebar('33_Oneiric Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\81_Tidal Awakener.png" id="81_Tidal Awakener" data-flag="@N" onclick="openSidebar('81_Tidal Awakener',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\116_Profane Fable.png" id="116_Profane Fable" data-flag="@N" onclick="openSidebar('116_Profane Fable',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\151_Master of Sparkles.png" id="151_Master of Sparkles" data-flag="@N" onclick="openSidebar('151_Master of Sparkles',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\187_Lys Alana Naturalist.png" id="187_Lys Alana Naturalist" data-flag="@N" onclick="openSidebar('187_Lys Alana Naturalist',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\41_Springjack Giant.png" id="41_Springjack Giant" data-flag="@N" onclick="openSidebar('41_Springjack Giant',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\83_Underriver Statue.png" id="83_Underriver Statue" data-flag="@N" onclick="openSidebar('83_Underriver Statue',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\120_Spawns of Colfenor.png" id="120_Spawns of Colfenor" data-flag="@N" onclick="openSidebar('120_Spawns of Colfenor',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\159_Tormenting Boggart.png" id="159_Tormenting Boggart" data-flag="@N" onclick="openSidebar('159_Tormenting Boggart',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\196_Primal Fable.png" id="196_Primal Fable" data-flag="@N" onclick="openSidebar('196_Primal Fable',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\14_Cloverdell Thief.png" id="14_Cloverdell Thief" data-flag="@N" onclick="openSidebar('14_Cloverdell Thief',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\50_Deep Investigation.png" id="50_Deep Investigation" data-flag="@N" onclick="openSidebar('50_Deep Investigation',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\88_Cauldron Hedge-Mage.png" id="88_Cauldron Hedge-Mage" data-flag="@N" onclick="openSidebar('88_Cauldron Hedge-Mage',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\125_Boggart Annoyance.png" id="125_Boggart Annoyance" data-flag="@N" onclick="openSidebar('125_Boggart Annoyance',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\164_Blow the Horn.png" id="164_Blow the Horn" data-flag="@N" onclick="openSidebar('164_Blow the Horn',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\16_Dundoolin Harmony.png" id="16_Dundoolin Harmony" data-flag="@N" onclick="openSidebar('16_Dundoolin Harmony',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\55_Faefolk Changeling.png" id="55_Faefolk Changeling" data-flag="@N" onclick="openSidebar('55_Faefolk Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\91_Cursed Prediction.png" id="91_Cursed Prediction" data-flag="@N" onclick="openSidebar('91_Cursed Prediction',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\133_Cloverdell Swiftcaster.png" id="133_Cloverdell Swiftcaster" data-flag="@N" onclick="openSidebar('133_Cloverdell Swiftcaster',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\165_Boggart Smasher.png" id="165_Boggart Smasher" data-flag="@N" onclick="openSidebar('165_Boggart Smasher',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\17_Dundoolin Rascal.png" id="17_Dundoolin Rascal" data-flag="@N" onclick="openSidebar('17_Dundoolin Rascal',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\60_Merrow Seer.png" id="60_Merrow Seer" data-flag="@N" onclick="openSidebar('60_Merrow Seer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\96_Eyeblight's Supremacy.png" id="96_Eyeblights Supremacy" data-flag="@N" onclick="openSidebar('96_Eyeblights Supremacy',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\135_Crimsonwing Changeling.png" id="135_Crimsonwing Changeling" data-flag="@N" onclick="openSidebar('135_Crimsonwing Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\166_Changeling Branchrider.png" id="166_Changeling Branchrider" data-flag="@N" onclick="openSidebar('166_Changeling Branchrider',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\19_Galanda Survivor.png" id="19_Galanda Survivor" data-flag="@N" onclick="openSidebar('19_Galanda Survivor',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\63_Oneiric Guardian.png" id="63_Oneiric Guardian" data-flag="@N" onclick="openSidebar('63_Oneiric Guardian',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\100_Glen Elendra Bonecaller.png" id="100_Glen Elendra Bonecaller" data-flag="@N" onclick="openSidebar('100_Glen Elendra Bonecaller',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\137_Farm Thief.png" id="137_Farm Thief" data-flag="@N" onclick="openSidebar('137_Farm Thief',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\174_Eyeblight Paragon.png" id="174_Eyeblight Paragon" data-flag="@N" onclick="openSidebar('174_Eyeblight Paragon',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\20_Goldmeadow Celebrant.png" id="20_Goldmeadow Celebrant" data-flag="@N" onclick="openSidebar('20_Goldmeadow Celebrant',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\64_Oona Vanished.png" id="64_Oona Vanished" data-flag="@N" onclick="openSidebar('64_Oona Vanished',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\101_Glen Elendra Praetorian.png" id="101_Glen Elendra Praetorian" data-flag="@N" onclick="openSidebar('101_Glen Elendra Praetorian',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\139_Flamekin Harbinger.png" id="139_Flamekin Harbinger" data-flag="@N" onclick="openSidebar('139_Flamekin Harbinger',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\175_Fae Remember.png" id="175_Fae Remember" data-flag="@N" onclick="openSidebar('175_Fae Remember',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\23_Gryphoon.png" id="23_Gryphoon" data-flag="@N" onclick="openSidebar('23_Gryphoon',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\66_Oona's Veil.png" id="66_Oonas Veil" data-flag="@N" onclick="openSidebar('66_Oonas Veil',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\103_Lys Alana Cutthroat.png" id="103_Lys Alana Cutthroat" data-flag="@N" onclick="openSidebar('103_Lys Alana Cutthroat',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\141_Flamekin's Pyre.png" id="141_Flamekins Pyre" data-flag="@N" onclick="openSidebar('141_Flamekins Pyre',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\180_Gilt-Leaf Messenger.png" id="180_Gilt-Leaf Messenger" data-flag="@N" onclick="openSidebar('180_Gilt-Leaf Messenger',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\25_Help Needed.png" id="25_Help Needed" data-flag="@N" onclick="openSidebar('25_Help Needed',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\70_Rapture in the River.png" id="70_Rapture in the River" data-flag="@N" onclick="openSidebar('70_Rapture in the River',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\104_Marelen's Sorcerer.png" id="104_Marelens Sorcerer" data-flag="@N" onclick="openSidebar('104_Marelens Sorcerer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\144_Goldmeadow Hunter.png" id="144_Goldmeadow Hunter" data-flag="@N" onclick="openSidebar('144_Goldmeadow Hunter',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\182_Glory Belongs to the Brave.png" id="182_Glory Belongs to the Brave" data-flag="@N" onclick="openSidebar('182_Glory Belongs to the Brave',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\28_Lost in Thoughts.png" id="28_Lost in Thoughts" data-flag="@N" onclick="openSidebar('28_Lost in Thoughts',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\72_River Camouflage.png" id="72_River Camouflage" data-flag="@N" onclick="openSidebar('72_River Camouflage',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\108_Nightweb Spider.png" id="108_Nightweb Spider" data-flag="@N" onclick="openSidebar('108_Nightweb Spider',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\149_The Journey Continued.png" id="149_The Journey Continued" data-flag="@N" onclick="openSidebar('149_The Journey Continued',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\188_Malicious Shoot.png" id="188_Malicious Shoot" data-flag="@N" onclick="openSidebar('188_Malicious Shoot',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\32_Offensive Disguise.png" id="32_Offensive Disguise" data-flag="@N" onclick="openSidebar('32_Offensive Disguise',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\74_River Serpent.png" id="74_River Serpent" data-flag="@N" onclick="openSidebar('74_River Serpent',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\112_Oona's Disgrace.png" id="112_Oonas Disgrace" data-flag="@N" onclick="openSidebar('112_Oonas Disgrace',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\153_Mudbutton Party.png" id="153_Mudbutton Party" data-flag="@N" onclick="openSidebar('153_Mudbutton Party',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\193_Naturecaller Druid.png" id="193_Naturecaller Druid" data-flag="@N" onclick="openSidebar('193_Naturecaller Druid',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\35_Paperfin Harpooner.png" id="35_Paperfin Harpooner" data-flag="@N" onclick="openSidebar('35_Paperfin Harpooner',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\75_Riverdiver Changeling.png" id="75_Riverdiver Changeling" data-flag="@N" onclick="openSidebar('75_Riverdiver Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\115_Poxolion.png" id="115_Poxolion" data-flag="@N" onclick="openSidebar('115_Poxolion',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\154_Noggle Centinel.png" id="154_Noggle Centinel" data-flag="@N" onclick="openSidebar('154_Noggle Centinel',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\194_Paradise Druid.png" id="194_Paradise Druid" data-flag="@N" onclick="openSidebar('194_Paradise Druid',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\39_Scapegrace Kithkin.png" id="39_Scapegrace Kithkin" data-flag="@N" onclick="openSidebar('39_Scapegrace Kithkin',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\76_Shipwrecker Inkfathom.png" id="76_Shipwrecker Inkfathom" data-flag="@N" onclick="openSidebar('76_Shipwrecker Inkfathom',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\117_Rise from Death.png" id="117_Rise from Death" data-flag="@N" onclick="openSidebar('117_Rise from Death',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\155_Oneiric Flamekin.png" id="155_Oneiric Flamekin" data-flag="@N" onclick="openSidebar('155_Oneiric Flamekin',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\197_Sapseep Boggart.png" id="197_Sapseep Boggart" data-flag="@N" onclick="openSidebar('197_Sapseep Boggart',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\42_Squirreltail Changeling.png" id="42_Squirreltail Changeling" data-flag="@N" onclick="openSidebar('42_Squirreltail Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\78_Silvergill Sovereing.png" id="78_Silvergill Sovereing" data-flag="@N" onclick="openSidebar('78_Silvergill Sovereing',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\119_Skull Armored Changeling.png" id="119_Skull Armored Changeling" data-flag="@N" onclick="openSidebar('119_Skull Armored Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\156_Shocking Strike.png" id="156_Shocking Strike" data-flag="@N" onclick="openSidebar('156_Shocking Strike',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\198_Scaryweaver.png" id="198_Scaryweaver" data-flag="@N" onclick="openSidebar('198_Scaryweaver',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\45_Weirwinder Convoker.png" id="45_Weirwinder Convoker" data-flag="@N" onclick="openSidebar('45_Weirwinder Convoker',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\82_Tricky Fae.png" id="82_Tricky Fae" data-flag="@N" onclick="openSidebar('82_Tricky Fae',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\123_Witchcraft Cauldron.png" id="123_Witchcraft Cauldron" data-flag="@N" onclick="openSidebar('123_Witchcraft Cauldron',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\161_Understory Boggart.png" id="161_Understory Boggart" data-flag="@N" onclick="openSidebar('161_Understory Boggart',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\201_Wren's Run Hunter.png" id="201_Wrens Run Hunter" data-flag="@N" onclick="openSidebar('201_Wrens Run Hunter',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\8_Binding Merrow.png" id="8_Binding Merrow" data-flag="@N" onclick="openSidebar('8_Binding Merrow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\46_Counsel of the Merrow.png" id="46_Counsel of the Merrow" data-flag="@N" onclick="openSidebar('46_Counsel of the Merrow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\90_Corrupted Cry.png" id="90_Corrupted Cry" data-flag="@N" onclick="openSidebar('90_Corrupted Cry',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\126_Boggart Assault.png" id="126_Boggart Assault" data-flag="@N" onclick="openSidebar('126_Boggart Assault',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\163_Aurora's Manifest.png" id="163_Auroras Manifest" data-flag="@N" onclick="openSidebar('163_Auroras Manifest',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\10_Burrenton Shot.png" id="10_Burrenton Shot" data-flag="@N" onclick="openSidebar('10_Burrenton Shot',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\51_Delve into Thoughts.png" id="51_Delve into Thoughts" data-flag="@N" onclick="openSidebar('51_Delve into Thoughts',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\92_Dark Burst.png" id="92_Dark Burst" data-flag="@N" onclick="openSidebar('92_Dark Burst',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\128_Boggart Gang.png" id="128_Boggart Gang" data-flag="@N" onclick="openSidebar('128_Boggart Gang',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\170_Elvish Vigilant.png" id="170_Elvish Vigilant" data-flag="@N" onclick="openSidebar('170_Elvish Vigilant',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\12_Chattering Changeling.png" id="12_Chattering Changeling" data-flag="@N" onclick="openSidebar('12_Chattering Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\52_Disturb the Mind.png" id="52_Disturb the Mind" data-flag="@N" onclick="openSidebar('52_Disturb the Mind',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\93_Darkin Walker.png" id="93_Darkin Walker" data-flag="@N" onclick="openSidebar('93_Darkin Walker',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\130_Boggart's Adventure.png" id="130_Boggarts Adventure" data-flag="@N" onclick="openSidebar('130_Boggarts Adventure',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\171_Elvish's Gaze.png" id="171_Elvishs Gaze" data-flag="@N" onclick="openSidebar('171_Elvishs Gaze',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\13_Cloverdell Hero.png" id="13_Cloverdell Hero" data-flag="@N" onclick="openSidebar('13_Cloverdell Hero',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\53_Emerging Merrow.png" id="53_Emerging Merrow" data-flag="@N" onclick="openSidebar('53_Emerging Merrow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\94_Elvish Convoker.png" id="94_Elvish Convoker" data-flag="@N" onclick="openSidebar('94_Elvish Convoker',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\132_Cloverdell Strike.png" id="132_Cloverdell Strike" data-flag="@N" onclick="openSidebar('132_Cloverdell Strike',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\176_Fishaurus Changeling.png" id="176_Fishaurus Changeling" data-flag="@N" onclick="openSidebar('176_Fishaurus Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\15_Dundoolin Caster.png" id="15_Dundoolin Caster" data-flag="@N" onclick="openSidebar('15_Dundoolin Caster',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\54_Fae Pathfinder.png" id="54_Fae Pathfinder" data-flag="@N" onclick="openSidebar('54_Fae Pathfinder',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\95_Eyeblight Blademaster.png" id="95_Eyeblight Blademaster" data-flag="@N" onclick="openSidebar('95_Eyeblight Blademaster',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\136_Fae Collector.png" id="136_Fae Collector" data-flag="@N" onclick="openSidebar('136_Fae Collector',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\177_Forest Harmony.png" id="177_Forest Harmony" data-flag="@N" onclick="openSidebar('177_Forest Harmony',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\18_Eternal Journey.png" id="18_Eternal Journey" data-flag="@N" onclick="openSidebar('18_Eternal Journey',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\56_Floodscale.png" id="56_Floodscale" data-flag="@N" onclick="openSidebar('56_Floodscale',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\97_Fae Disruption.png" id="97_Fae Disruption" data-flag="@N" onclick="openSidebar('97_Fae Disruption',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\138_Flamekin Arcanist.png" id="138_Flamekin Arcanist" data-flag="@N" onclick="openSidebar('138_Flamekin Arcanist',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\178_Gilt-Leaf Cavalry.png" id="178_Gilt-Leaf Cavalry" data-flag="@N" onclick="openSidebar('178_Gilt-Leaf Cavalry',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\21_Goldmeadow Couple.png" id="21_Goldmeadow Couple" data-flag="@N" onclick="openSidebar('21_Goldmeadow Couple',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\59_Merrow Outburst.png" id="59_Merrow Outburst" data-flag="@N" onclick="openSidebar('59_Merrow Outburst',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\102_Hag's Cauldron.png" id="102_Hags Cauldron" data-flag="@N" onclick="openSidebar('102_Hags Cauldron',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\140_Flamekin Hound.png" id="140_Flamekin Hound" data-flag="@N" onclick="openSidebar('140_Flamekin Hound',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\179_Gilt-Leaf Herald.png" id="179_Gilt-Leaf Herald" data-flag="@N" onclick="openSidebar('179_Gilt-Leaf Herald',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\22_Goldmeadow Pair.png" id="22_Goldmeadow Pair" data-flag="@N" onclick="openSidebar('22_Goldmeadow Pair',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\61_Momentary Awakening.png" id="61_Momentary Awakening" data-flag="@N" onclick="openSidebar('61_Momentary Awakening',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\105_Mind's Dislodge.png" id="105_Minds Dislodge" data-flag="@N" onclick="openSidebar('105_Minds Dislodge',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\142_Flamekin's Rage.png" id="142_Flamekins Rage" data-flag="@N" onclick="openSidebar('142_Flamekins Rage',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\185_Hunting in the Meadow.png" id="185_Hunting in the Meadow" data-flag="@N" onclick="openSidebar('185_Hunting in the Meadow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\31_Merrow Lancer.png" id="31_Merrow Lancer" data-flag="@N" onclick="openSidebar('31_Merrow Lancer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\62_Octoleg Changeling.png" id="62_Octoleg Changeling" data-flag="@N" onclick="openSidebar('62_Octoleg Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\109_Offer Immortality.png" id="109_Offer Immortality" data-flag="@N" onclick="openSidebar('109_Offer Immortality',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\143_Flames of Shadowmoor.png" id="143_Flames of Shadowmoor" data-flag="@N" onclick="openSidebar('143_Flames of Shadowmoor',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\186_Lys Alana Battle.png" id="186_Lys Alana Battle" data-flag="@N" onclick="openSidebar('186_Lys Alana Battle',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\34_Otherworld Reinforcements.png" id="34_Otherworld Reinforcements" data-flag="@N" onclick="openSidebar('34_Otherworld Reinforcements',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\67_Overflowed Wave.png" id="67_Overflowed Wave" data-flag="@N" onclick="openSidebar('67_Overflowed Wave',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\110_Oneiric Druid.png" id="110_Oneiric Druid" data-flag="@N" onclick="openSidebar('110_Oneiric Druid',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\148_Inspirational Song.png" id="148_Inspirational Song" data-flag="@N" onclick="openSidebar('148_Inspirational Song',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\189_Mighty Growth.png" id="189_Mighty Growth" data-flag="@N" onclick="openSidebar('189_Mighty Growth',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\36_Pridewings.png" id="36_Pridewings" data-flag="@N" onclick="openSidebar('36_Pridewings',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\68_Ovine Form.png" id="68_Ovine Form" data-flag="@N" onclick="openSidebar('68_Ovine Form',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\111_Oneiric Marauder.png" id="111_Oneiric Marauder" data-flag="@N" onclick="openSidebar('111_Oneiric Marauder',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\152_Mistrustful of Tanufel.png" id="152_Mistrustful of Tanufel" data-flag="@N" onclick="openSidebar('152_Mistrustful of Tanufel',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\190_Mossveil Auntie.png" id="190_Mossveil Auntie" data-flag="@N" onclick="openSidebar('190_Mossveil Auntie',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\37_Resolute Will.png" id="37_Resolute Will" data-flag="@N" onclick="openSidebar('37_Resolute Will',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\69_Pestermite.png" id="69_Pestermite" data-flag="@N" onclick="openSidebar('69_Pestermite',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\113_Oona's Swarm.png" id="113_Oonas Swarm" data-flag="@N" onclick="openSidebar('113_Oonas Swarm',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\157_Threehorn Changeling.png" id="157_Threehorn Changeling" data-flag="@N" onclick="openSidebar('157_Threehorn Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\191_Murmuring Wanderer.png" id="191_Murmuring Wanderer" data-flag="@N" onclick="openSidebar('191_Murmuring Wanderer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\38_River Fighters.png" id="38_River Fighters" data-flag="@N" onclick="openSidebar('38_River Fighters',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\73_River Selkie.png" id="73_River Selkie" data-flag="@N" onclick="openSidebar('73_River Selkie',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\118_Silent Trotter.png" id="118_Silent Trotter" data-flag="@N" onclick="openSidebar('118_Silent Trotter',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\158_Thunderhold Boggart.png" id="158_Thunderhold Boggart" data-flag="@N" onclick="openSidebar('158_Thunderhold Boggart',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\195_Pine-Tree Lorekeeper.png" id="195_Pine-Tree Lorekeeper" data-flag="@N" onclick="openSidebar('195_Pine-Tree Lorekeeper',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\40_Sleepy Giant.png" id="40_Sleepy Giant" data-flag="@N" onclick="openSidebar('40_Sleepy Giant',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\77_Shore Diplomat.png" id="77_Shore Diplomat" data-flag="@N" onclick="openSidebar('77_Shore Diplomat',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\121_Strangewalker Changeling.png" id="121_Strangewalker Changeling" data-flag="@N" onclick="openSidebar('121_Strangewalker Changeling',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\160_Trial of Errors.png" id="160_Trial of Errors" data-flag="@N" onclick="openSidebar('160_Trial of Errors',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\199_Thicket Comrade.png" id="199_Thicket Comrade" data-flag="@N" onclick="openSidebar('199_Thicket Comrade',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\43_Sumerged Ballyrush.png" id="43_Sumerged Ballyrush" data-flag="@N" onclick="openSidebar('43_Sumerged Ballyrush',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\84_Wanderwine Gatekeeper.png" id="84_Wanderwine Gatekeeper" data-flag="@N" onclick="openSidebar('84_Wanderwine Gatekeeper',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\122_Superb Perfects.png" id="122_Superb Perfects" data-flag="@N" onclick="openSidebar('122_Superb Perfects',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\162_Valley Party.png" id="162_Valley Party" data-flag="@N" onclick="openSidebar('162_Valley Party',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\200_Vinejogger.png" id="200_Vinejogger" data-flag="@N" onclick="openSidebar('200_Vinejogger',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\207_Dream Merrow.png" id="207_Dream Merrow" data-flag="@N" onclick="openSidebar('207_Dream Merrow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\246_Oona, the Returned Queen.png" id="246_Oona, the Returned Queen" data-flag="@N" onclick="openSidebar('246_Oona, the Returned Queen',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\214_Hellhole Ashenmoor.png" id="214_Hellhole Ashenmoor" data-flag="@N" onclick="openSidebar('214_Hellhole Ashenmoor',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\235_Wort, the Crazy Aunt.png" id="235_Wort, the Crazy Aunt" data-flag="@N" onclick="openSidebar('235_Wort, the Crazy Aunt',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\224_Ragdoll, Burrenton Expert.png" id="224_Ragdoll, Burrenton Expert" data-flag="@N" onclick="openSidebar('224_Ragdoll, Burrenton Expert',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\232_Sygg, River Sentry.png" id="232_Sygg, River Sentry" data-flag="@N" onclick="openSidebar('232_Sygg, River Sentry',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\236_Wydwen, Glen Elendra Whisperer.png" id="236_Wydwen, Glen Elendra Whisperer" data-flag="@N" onclick="openSidebar('236_Wydwen, Glen Elendra Whisperer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\202_Ashenmoor Striker.png" id="202_Ashenmoor Striker" data-flag="@N" onclick="openSidebar('202_Ashenmoor Striker',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\206_Dangerous Caught.png" id="206_Dangerous Caught" data-flag="@N" onclick="openSidebar('206_Dangerous Caught',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\226_Rhys, Daen of Hemlock.png" id="226_Rhys, Daen of Hemlock" data-flag="@N" onclick="openSidebar('226_Rhys, Daen of Hemlock',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\205_Cunning Anticipation.png" id="205_Cunning Anticipation" data-flag="@N" onclick="openSidebar('205_Cunning Anticipation',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\211_Glen Elendra Weaver.png" id="211_Glen Elendra Weaver" data-flag="@N" onclick="openSidebar('211_Glen Elendra Weaver',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\209_Fiery Revenge.png" id="209_Fiery Revenge" data-flag="@N" onclick="openSidebar('209_Fiery Revenge',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\218_Mad Uncle.png" id="218_Mad Uncle" data-flag="@N" onclick="openSidebar('218_Mad Uncle',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\220_Murmuring Fir.png" id="220_Murmuring Fir" data-flag="@N" onclick="openSidebar('220_Murmuring Fir',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\229_Stonybrook Sorcerer.png" id="229_Stonybrook Sorcerer" data-flag="@N" onclick="openSidebar('229_Stonybrook Sorcerer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\215_Hollow Detract.png" id="215_Hollow Detract" data-flag="@N" onclick="openSidebar('215_Hollow Detract',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\213_Hellfire Cinder.png" id="213_Hellfire Cinder" data-flag="@N" onclick="openSidebar('213_Hellfire Cinder',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\240_Barrage Boggart.png" id="240_Barrage Boggart" data-flag="@N" onclick="openSidebar('240_Barrage Boggart',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\221_Naturalizer Kithkin.png" id="221_Naturalizer Kithkin" data-flag="@N" onclick="openSidebar('221_Naturalizer Kithkin',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\249_River Harpist.png" id="249_River Harpist" data-flag="@N" onclick="openSidebar('249_River Harpist',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\247_Oona's Stabber.png" id="247_Oonas Stabber" data-flag="@N" onclick="openSidebar('247_Oonas Stabber',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\237_Ashen Flamekin.png" id="237_Ashen Flamekin" data-flag="@N" onclick="openSidebar('237_Ashen Flamekin',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\241_Burrenton Hero.png" id="241_Burrenton Hero" data-flag="@N" onclick="openSidebar('241_Burrenton Hero',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\250_Yenria, Springjack Commander.png" id="250_Yenria, Springjack Commander" data-flag="@N" onclick="openSidebar('250_Yenria, Springjack Commander',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\210_Firetail Diver.png" id="210_Firetail Diver" data-flag="@N" onclick="openSidebar('210_Firetail Diver',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\245_Maralen, Queen of the Fae.png" id="245_Maralen, Queen of the Fae" data-flag="@N" onclick="openSidebar('245_Maralen, Queen of the Fae',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\243_Lyn, Destiny Hero.png" id="243_Lyn, Destiny Hero" data-flag="@N" onclick="openSidebar('243_Lyn, Destiny Hero',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\219_Maralen's Research.png" id="219_Maralens Research" data-flag="@N" onclick="openSidebar('219_Maralens Research',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\231_Sweetblossom.png" id="231_Sweetblossom" data-flag="@N" onclick="openSidebar('231_Sweetblossom',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\223_Noggle Shot.png" id="223_Noggle Shot" data-flag="@N" onclick="openSidebar('223_Noggle Shot',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\208_Eidren, Perfect of Lys Alana.png" id="208_Eidren, Perfect of Lys Alana" data-flag="@N" onclick="openSidebar('208_Eidren, Perfect of Lys Alana',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\204_Brigid, Kinsbaile Shooter.png" id="204_Brigid, Kinsbaile Shooter" data-flag="@N" onclick="openSidebar('204_Brigid, Kinsbaile Shooter',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\227_River Bogle.png" id="227_River Bogle" data-flag="@N" onclick="openSidebar('227_River Bogle',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\222_Night Meeting.png" id="222_Night Meeting" data-flag="@N" onclick="openSidebar('222_Night Meeting',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\230_Stormdriver Fae.png" id="230_Stormdriver Fae" data-flag="@N" onclick="openSidebar('230_Stormdriver Fae',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\216_Hunter's Mercy.png" id="216_Hunters Mercy" data-flag="@N" onclick="openSidebar('216_Hunters Mercy',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\212_Heated Up.png" id="212_Heated Up" data-flag="@N" onclick="openSidebar('212_Heated Up',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\225_Reset the Aurora.png" id="225_Reset the Aurora" data-flag="@N" onclick="openSidebar('225_Reset the Aurora',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\234_Tanufel Gatekeeper.png" id="234_Tanufel Gatekeeper" data-flag="@N" onclick="openSidebar('234_Tanufel Gatekeeper',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\242_Fae Exhaustion.png" id="242_Fae Exhaustion" data-flag="@N" onclick="openSidebar('242_Fae Exhaustion',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\228_Shaman of the Pack.png" id="228_Shaman of the Pack" data-flag="@N" onclick="openSidebar('228_Shaman of the Pack',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\217_Kinsbaile Spellslinger.png" id="217_Kinsbaile Spellslinger" data-flag="@N" onclick="openSidebar('217_Kinsbaile Spellslinger',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\233_Taleswimmer.png" id="233_Taleswimmer" data-flag="@N" onclick="openSidebar('233_Taleswimmer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\239_Ballyrush Trick.png" id="239_Ballyrush Trick" data-flag="@N" onclick="openSidebar('239_Ballyrush Trick',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\244_Lys Alana Captain.png" id="244_Lys Alana Captain" data-flag="@N" onclick="openSidebar('244_Lys Alana Captain',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\238_Ballyrush Hero.png" id="238_Ballyrush Hero" data-flag="@N" onclick="openSidebar('238_Ballyrush Hero',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\248_Quick Transformation.png" id="248_Quick Transformation" data-flag="@N" onclick="openSidebar('248_Quick Transformation',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\203_Bala, Doran's Scion.png" id="203_Bala, Dorans Scion" data-flag="@N" onclick="openSidebar('203_Bala, Dorans Scion',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\4_Morophon, the Enduring Fate.png" id="4_Morophon, the Enduring Fate" data-flag="@N" onclick="openSidebar('4_Morophon, the Enduring Fate',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\3_Macabre Serenade.png" id="3_Macabre Serenade" data-flag="@N" onclick="openSidebar('3_Macabre Serenade',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\5_Oona's Callback.png" id="5_Oonas Callback" data-flag="@N" onclick="openSidebar('5_Oonas Callback',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\252_Knowledge Deliverer.png" id="252_Knowledge Deliverer" data-flag="@N" onclick="openSidebar('252_Knowledge Deliverer',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\1_Allegro Song.png" id="1_Allegro Song" data-flag="@N" onclick="openSidebar('1_Allegro Song',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\2_Aurora Change.png" id="2_Aurora Change" data-flag="@N" onclick="openSidebar('2_Aurora Change',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\6_Scarecrow's Haunt.png" id="6_Scarecrows Haunt" data-flag="@N" onclick="openSidebar('6_Scarecrows Haunt',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\251_Burrenton Scarecrow.png" id="251_Burrenton Scarecrow" data-flag="@N" onclick="openSidebar('251_Burrenton Scarecrow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\253_Warren Dancer.png" id="253_Warren Dancer" data-flag="@N" onclick="openSidebar('253_Warren Dancer',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="land" class="anchor"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\257_Kinsbaile Praire.png" id="257_Kinsbaile Praire" data-flag="@N" onclick="openSidebar('257_Kinsbaile Praire',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\259_Silvergill Domains.png" id="259_Silvergill Domains" data-flag="@N" onclick="openSidebar('259_Silvergill Domains',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\256_Glen Elendra Outskirts.png" id="256_Glen Elendra Outskirts" data-flag="@N" onclick="openSidebar('256_Glen Elendra Outskirts',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\255_Frogtosser Warren.png" id="255_Frogtosser Warren" data-flag="@N" onclick="openSidebar('255_Frogtosser Warren',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\261_Wilt-Leaf Palace.png" id="261_Wilt-Leaf Palace" data-flag="@N" onclick="openSidebar('261_Wilt-Leaf Palace',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\266_Flooded Meadow.png" id="266_Flooded Meadow" data-flag="@N" onclick="openSidebar('266_Flooded Meadow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\268_Foggy Morass.png" id="268_Foggy Morass" data-flag="@N" onclick="openSidebar('268_Foggy Morass',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\265_Fiery Cliff.png" id="265_Fiery Cliff" data-flag="@N" onclick="openSidebar('265_Fiery Cliff',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\262_Crowded Understory.png" id="262_Crowded Understory" data-flag="@N" onclick="openSidebar('262_Crowded Understory',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\264_Fertile Field.png" id="264_Fertile Field" data-flag="@N" onclick="openSidebar('264_Fertile Field',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\269_Gloomy Hillside.png" id="269_Gloomy Hillside" data-flag="@N" onclick="openSidebar('269_Gloomy Hillside',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\270_Muddy Bonfires.png" id="270_Muddy Bonfires" data-flag="@N" onclick="openSidebar('270_Muddy Bonfires',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\263_Dusk Woodland.png" id="263_Dusk Woodland" data-flag="@N" onclick="openSidebar('263_Dusk Woodland',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\271_Saddle Panorama.png" id="271_Saddle Panorama" data-flag="@N" onclick="openSidebar('271_Saddle Panorama',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\267_Flowery River.png" id="267_Flowery River" data-flag="@N" onclick="openSidebar('267_Flowery River',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\258_Secluded Village.png" id="258_Secluded Village" data-flag="@N" onclick="openSidebar('258_Secluded Village',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\260_Spinerock Cliff.png" id="260_Spinerock Cliff" data-flag="@N" onclick="openSidebar('260_Spinerock Cliff',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\254_Evergrowing Panorama.png" id="254_Evergrowing Panorama" data-flag="@N" onclick="openSidebar('254_Evergrowing Panorama',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="masterpiece" class="anchor"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\1_Blightwing Bandit.png" id="1_Blightwing Bandit" data-flag="@N" onclick="openSidebar('1_Blightwing Bandit',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\2_Night Incarnate.png" id="2_Night Incarnate" data-flag="@N" onclick="openSidebar('2_Night Incarnate',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\3_Persist.png" id="3_Persist" data-flag="@N" onclick="openSidebar('3_Persist',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\4_Elves of Deep Shadow.png" id="4_Elves of Deep Shadow" data-flag="@N" onclick="openSidebar('4_Elves of Deep Shadow',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\5_Realmwalker.png" id="5_Realmwalker" data-flag="@N" onclick="openSidebar('5_Realmwalker',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\6_Elderfang Venom.png" id="6_Elderfang Venom" data-flag="@N" onclick="openSidebar('6_Elderfang Venom',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\7_Grumgully, the Generous.png" id="7_Grumgully, the Generous" data-flag="@N" onclick="openSidebar('7_Grumgully, the Generous',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\8_Vodalian Wave-Knight.png" id="8_Vodalian Wave-Knight" data-flag="@N" onclick="openSidebar('8_Vodalian Wave-Knight',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\9_Mistmeadow Vanisher.png" id="9_Mistmeadow Vanisher" data-flag="@N" onclick="openSidebar('9_Mistmeadow Vanisher',false)"></div>
+			<div class="container"><img alt="/sets\FOL-files\img\10_Swans of Bryn Argoll.png" id="10_Swans of Bryn Argoll" data-flag="@N" onclick="openSidebar('10_Swans of Bryn Argoll',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
