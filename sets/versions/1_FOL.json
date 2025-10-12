@@ -1900,7 +1900,7 @@
             "rules_text2": "",
             "flavor_text2": "[i][/i]",
             "pt2": "",
-            "special_text2": "\n",
+            "special_text2": "\u200b\n\u200b\n\u200b\n\u200b\n\u200b",
             "loyalty2": "5",
             "artist2": "kp1212",
             "notes": ""
