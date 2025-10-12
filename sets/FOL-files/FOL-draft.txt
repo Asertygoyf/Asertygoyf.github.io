@@ -7,7 +7,7 @@
 			"type": "Land",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/266_Flooded Meadow.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flooded Meadow.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Land",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/268_Foggy Morass.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Foggy Morass.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Land",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/265_Fiery Cliff.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Fiery Cliff.png"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Land",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/262_Crowded Understory.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Crowded Understory.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Land",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/264_Fertile Field.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Fertile Field.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Land",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/269_Gloomy Hillside.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Gloomy Hillside.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Land",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/270_Muddy Bonfires.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Muddy Bonfires.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Land",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/263_Dusk Woodland.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Dusk Woodland.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Land",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/271_Saddle Panorama.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Saddle Panorama.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Land",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/267_Flowery River.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flowery River.png"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Creature — Shapeshifter",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/121_Strangewalker Changeling.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Strangewalker Changeling.png"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Kindred Instant — Faerie",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/113_Oona's Swarm.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Oona's Swarm.png"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Creature — Faerie Rogue",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/111_Oneiric Marauder.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Oneiric Marauder.png"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Enchantment Creature — Elemental Nightmare",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/118_Silent Trotter.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Silent Trotter.png"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/110_Oneiric Druid.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Oneiric Druid.png"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Creature — Elf Faerie",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/122_Superb Perfects.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Superb Perfects.png"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Instant",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/109_Offer Immortality.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Offer Immortality.png"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"type": "Artifact",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/102_Hag's Cauldron.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Hag's Cauldron.png"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			"type": "Sorcery",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/105_Mind's Dislodge.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Mind's Dislodge.png"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 			"type": "Artifact Creature — Kithkin Scarecrow",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/251_Burrenton Scarecrow.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Burrenton Scarecrow.png"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 			"type": "Artifact Creature — Scarecrow Bard",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/253_Warren Dancer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Warren Dancer.png"
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 			"type": "Land",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/254_Evergrowing Panorama.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Evergrowing Panorama.png"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"type": "Kindred Sorcery — Elf",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/171_Elvish's Gaze.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Elvish's Gaze.png"
 			}
 		},
 		{
@@ -317,7 +317,7 @@
 			"type": "Creature — Elf Shaman",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/170_Elvish Vigilant.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Elvish Vigilant.png"
 			}
 		},
 		{
@@ -327,7 +327,7 @@
 			"type": "Creature — Treefolk Wizard",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/195_Pine-Tree Lorekeeper.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Pine-Tree Lorekeeper.png"
 			}
 		},
 		{
@@ -337,7 +337,7 @@
 			"type": "Creature — Elf Goblin",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/199_Thicket Comrade.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Thicket Comrade.png"
 			}
 		},
 		{
@@ -347,7 +347,7 @@
 			"type": "Creature — Goblin Shaman",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/191_Murmuring Wanderer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Murmuring Wanderer.png"
 			}
 		},
 		{
@@ -357,7 +357,7 @@
 			"type": "Creature — Goblin Warlock",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/190_Mossveil Auntie.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Mossveil Auntie.png"
 			}
 		},
 		{
@@ -367,7 +367,7 @@
 			"type": "Creature — Shapeshifter",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/176_Fishaurus Changeling.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Fishaurus Changeling.png"
 			}
 		},
 		{
@@ -377,7 +377,7 @@
 			"type": "Creature — Elemental",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/200_Vinejogger.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Vinejogger.png"
 			}
 		},
 		{
@@ -387,7 +387,7 @@
 			"type": "Sorcery",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/186_Lys Alana Battle.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Lys Alana Battle.png"
 			}
 		},
 		{
@@ -397,7 +397,7 @@
 			"type": "Instant",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/185_Hunting in the Meadow.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Hunting in the Meadow.png"
 			}
 		},
 		{
@@ -407,7 +407,7 @@
 			"type": "Instant",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/189_Mighty Growth.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Mighty Growth.png"
 			}
 		},
 		{
@@ -417,7 +417,7 @@
 			"type": "Sorcery",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/163_Aurora's Manifest.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Aurora's Manifest.png"
 			}
 		},
 		{
@@ -427,7 +427,7 @@
 			"type": "Sorcery",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/177_Forest Harmony.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Forest Harmony.png"
 			}
 		},
 		{
@@ -437,7 +437,7 @@
 			"type": "Kindred Sorcery — Goblin",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/130_Boggart's Adventure.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boggart's Adventure.png"
 			}
 		},
 		{
@@ -447,7 +447,7 @@
 			"type": "Creature — Goblin Wizard",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/158_Thunderhold Boggart.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Thunderhold Boggart.png"
 			}
 		},
 		{
@@ -457,7 +457,7 @@
 			"type": "Creature — Goblin Kithkin",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/162_Valley Party.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Valley Party.png"
 			}
 		},
 		{
@@ -467,7 +467,7 @@
 			"type": "Creature — Shapeshifter",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/157_Threehorn Changeling.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Threehorn Changeling.png"
 			}
 		},
 		{
@@ -477,7 +477,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/128_Boggart Gang.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boggart Gang.png"
 			}
 		},
 		{
@@ -487,7 +487,7 @@
 			"type": "Creature — Giant Scout",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/152_Mistrustful of Tanufel.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Mistrustful of Tanufel.png"
 			}
 		},
 		{
@@ -497,7 +497,7 @@
 			"type": "Creature — Elemental Wizard",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/138_Flamekin Arcanist.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flamekin Arcanist.png"
 			}
 		},
 		{
@@ -507,7 +507,7 @@
 			"type": "Creature — Elemental",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/140_Flamekin Hound.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flamekin Hound.png"
 			}
 		},
 		{
@@ -517,7 +517,7 @@
 			"type": "Instant",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/143_Flames of Shadowmoor.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flames of Shadowmoor.png"
 			}
 		},
 		{
@@ -527,7 +527,7 @@
 			"type": "Instant",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/148_Inspirational Song.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Inspirational Song.png"
 			}
 		},
 		{
@@ -537,7 +537,7 @@
 			"type": "Sorcery",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/160_Trial of Errors.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Trial of Errors.png"
 			}
 		},
 		{
@@ -547,7 +547,7 @@
 			"type": "Sorcery",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/126_Boggart Assault.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boggart Assault.png"
 			}
 		},
 		{
@@ -557,7 +557,7 @@
 			"type": "Instant",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/132_Cloverdell Strike.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Cloverdell Strike.png"
 			}
 		},
 		{
@@ -567,7 +567,7 @@
 			"type": "Sorcery",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/142_Flamekin's Rage.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flamekin's Rage.png"
 			}
 		},
 		{
@@ -897,7 +897,7 @@
 			"type": "Sorcery",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/114_Pillar of Nightmares.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Pillar of Nightmares.png"
 			}
 		},
 		{
@@ -927,7 +927,7 @@
 			"type": "Legendary Creature — Elf Archer",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/192_Myth, Mossbridge Champion.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Myth, Mossbridge Champion.png"
 			}
 		},
 		{
@@ -937,7 +937,7 @@
 			"type": "Creature — Elf Noble",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/184_Horned King.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Horned King.png"
 			}
 		},
 		{
@@ -947,7 +947,7 @@
 			"type": "Enchantment Creature — Merfolk Nightmare",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/207_Dream Merrow.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Dream Merrow.png"
 			}
 		},
 		{
@@ -957,7 +957,7 @@
 			"type": "Creature — Elemental Warrior",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/214_Hellhole Ashenmoor.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Hellhole Ashenmoor.png"
 			}
 		},
 		{
@@ -967,7 +967,7 @@
 			"type": "Legendary Planeswalker — Ragdoll",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/224_Ragdoll, Burrenton Expert.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Ragdoll, Burrenton Expert.png"
 			}
 		},
 		{
@@ -977,7 +977,7 @@
 			"type": "Sorcery",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/219_Maralen's Research.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Maralen's Research.png"
 			}
 		},
 		{
@@ -987,7 +987,7 @@
 			"type": "Legendary Creature — Treefolk Druid",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/203_Bala, Doran's Scion.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Bala, Doran's Scion.png"
 			}
 		},
 		{
@@ -997,7 +997,7 @@
 			"type": "Enchantment Creature — Goblin Nightmare",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/124_Ashiok's Stabbers.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Ashiok's Stabbers.png"
 			}
 		},
 		{
@@ -1007,7 +1007,7 @@
 			"type": "Enchantment Creature — Dragon Nightmare",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/150_Knollspine Nightmare.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Knollspine Nightmare.png"
 			}
 		},
 		{
@@ -1050,11 +1050,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Asertygoyf.github.io/sets/FOL-files/img/246_Oona, the Returned Queen_back.png"
+					"en": "https://Asertygoyf.github.io/sets/FOL-files/Oona, the Returned Queen_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/246_Oona, the Returned Queen_front.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Oona, the Returned Queen_front.png"
 			}
 		},
 		{
@@ -1064,7 +1064,7 @@
 			"type": "Legendary Creature — Kithkin Knight",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/250_Yenria, Springjack Commander.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Yenria, Springjack Commander.png"
 			}
 		},
 		{
@@ -1074,7 +1074,7 @@
 			"type": "Legendary Creature — Elf Wizard Noble",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/245_Maralen, Queen of the Fae.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Maralen, Queen of the Fae.png"
 			}
 		},
 		{
@@ -1084,7 +1084,7 @@
 			"type": "Legendary Creature — Kithkin",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/243_Lyn, Destiny Hero.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Lyn, Destiny Hero.png"
 			}
 		},
 		{
@@ -1094,7 +1094,7 @@
 			"type": "Creature — Faerie Soldier",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/106_Mistveil Guardian.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Mistveil Guardian.png"
 			}
 		},
 		{
@@ -1124,7 +1124,7 @@
 			"type": "Enchantment Creature — Treefolk Nightmare",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/120_Spawns of Colfenor.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Spawns of Colfenor.png"
 			}
 		},
 		{
@@ -1134,7 +1134,7 @@
 			"type": "Sorcery",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/116_Profane Fable.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Profane Fable.png"
 			}
 		},
 		{
@@ -1164,7 +1164,7 @@
 			"type": "Sorcery",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/107_Nightmare Tendrils.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Nightmare Tendrils.png"
 			}
 		},
 		{
@@ -1174,7 +1174,7 @@
 			"type": "Kindred Land — Kithkin Plains",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/257_Kinsbaile Praire.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Kinsbaile Praire.png"
 			}
 		},
 		{
@@ -1184,7 +1184,7 @@
 			"type": "Kindred Land — Merfolk Island",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/259_Silvergill Domains.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Silvergill Domains.png"
 			}
 		},
 		{
@@ -1194,7 +1194,7 @@
 			"type": "Kindred Land — Faerie Swamp",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/256_Glen Elendra Outskirts.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Glen Elendra Outskirts.png"
 			}
 		},
 		{
@@ -1204,7 +1204,7 @@
 			"type": "Kindred Land — Goblin Mountain",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/255_Frogtosser Warren.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Frogtosser Warren.png"
 			}
 		},
 		{
@@ -1214,7 +1214,7 @@
 			"type": "Kindred Land — Elf Forest",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/261_Wilt-Leaf Palace.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Wilt-Leaf Palace.png"
 			}
 		},
 		{
@@ -1224,7 +1224,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/181_Gilt-Leaf Naturist.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Gilt-Leaf Naturist.png"
 			}
 		},
 		{
@@ -1234,7 +1234,7 @@
 			"type": "Legendary Creature — Goblin Shaman",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/183_Gowud, Death Worshiper.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Gowud, Death Worshiper.png"
 			}
 		},
 		{
@@ -1244,7 +1244,7 @@
 			"type": "Creature — Shapeshifter",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/167_Changeling Sovereign.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Changeling Sovereign.png"
 			}
 		},
 		{
@@ -1254,7 +1254,7 @@
 			"type": "Creature — Elemental",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/168_Cultivating Walker.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Cultivating Walker.png"
 			}
 		},
 		{
@@ -1264,7 +1264,7 @@
 			"type": "Creature — Elf Knight",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/173_Eyeblight Cavalier.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Eyeblight Cavalier.png"
 			}
 		},
 		{
@@ -1274,7 +1274,7 @@
 			"type": "Instant",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/196_Primal Fable.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Primal Fable.png"
 			}
 		},
 		{
@@ -1284,7 +1284,7 @@
 			"type": "Creature — Elf Warrior",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/172_Eyebligh Winnower.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Eyebligh Winnower.png"
 			}
 		},
 		{
@@ -1294,7 +1294,7 @@
 			"type": "Legendary Creature — Faerie Wizard",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/236_Wydwen, Glen Elendra Whisperer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Wydwen, Glen Elendra Whisperer.png"
 			}
 		},
 		{
@@ -1304,7 +1304,7 @@
 			"type": "Creature — Elemental Warrior",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/202_Ashenmoor Striker.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Ashenmoor Striker.png"
 			}
 		},
 		{
@@ -1314,7 +1314,7 @@
 			"type": "Legendary Creature — Goblin Shaman",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/235_Wort, the Crazy Aunt.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Wort, the Crazy Aunt.png"
 			}
 		},
 		{
@@ -1324,7 +1324,7 @@
 			"type": "Enchantment",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/231_Sweetblossom.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Sweetblossom.png"
 			}
 		},
 		{
@@ -1334,7 +1334,7 @@
 			"type": "Enchantment Creature — Elemental Nightmare",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/210_Firetail Diver.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Firetail Diver.png"
 			}
 		},
 		{
@@ -1344,7 +1344,7 @@
 			"type": "Legendary Creature — Kithkin Archer",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/204_Brigid, Kinsbaile Shooter.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Brigid, Kinsbaile Shooter.png"
 			}
 		},
 		{
@@ -1354,7 +1354,7 @@
 			"type": "Creature — Beast",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/227_River Bogle.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/River Bogle.png"
 			}
 		},
 		{
@@ -1364,7 +1364,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/129_Boggart Thief.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boggart Thief.png"
 			}
 		},
 		{
@@ -1374,7 +1374,7 @@
 			"type": "Enchantment Creature — Goblin Nightmare",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/159_Tormenting Boggart.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Tormenting Boggart.png"
 			}
 		},
 		{
@@ -1384,7 +1384,7 @@
 			"type": "Legendary Creature — Elemental Shaman",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/146_Illulia, Flamekin Soulstoke.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Illulia, Flamekin Soulstoke.png"
 			}
 		},
 		{
@@ -1394,7 +1394,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/131_Boosted Boggarts.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boosted Boggarts.png"
 			}
 		},
 		{
@@ -1404,7 +1404,7 @@
 			"type": "Enchantment Creature — Elemental Nightmare",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/145_Heatdeer Shimmer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Heatdeer Shimmer.png"
 			}
 		},
 		{
@@ -1414,7 +1414,7 @@
 			"type": "Creature — Kithkin Wizard",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/151_Master of Sparkles.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Master of Sparkles.png"
 			}
 		},
 		{
@@ -1424,7 +1424,7 @@
 			"type": "Instant",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/147_Incendiary Fable.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Incendiary Fable.png"
 			}
 		},
 		{
@@ -1434,7 +1434,7 @@
 			"type": "Sorcery",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/127_Boggart Charge.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boggart Charge.png"
 			}
 		},
 		{
@@ -1624,7 +1624,7 @@
 			"type": "Creature — Shapeshifter",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/119_Skull Armored Changeling.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Skull Armored Changeling.png"
 			}
 		},
 		{
@@ -1634,7 +1634,7 @@
 			"type": "Creature — Elf Warlock",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/104_Marelen's Sorcerer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Marelen's Sorcerer.png"
 			}
 		},
 		{
@@ -1644,7 +1644,7 @@
 			"type": "Creature — Faerie Soldier",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/101_Glen Elendra Praetorian.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Glen Elendra Praetorian.png"
 			}
 		},
 		{
@@ -1654,7 +1654,7 @@
 			"type": "Creature — Faerie Rogue",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/100_Glen Elendra Bonecaller.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Glen Elendra Bonecaller.png"
 			}
 		},
 		{
@@ -1664,7 +1664,7 @@
 			"type": "Enchantment Creature — Spider Nightmare",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/108_Nightweb Spider.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Nightweb Spider.png"
 			}
 		},
 		{
@@ -1674,7 +1674,7 @@
 			"type": "Enchantment Creature — Elemental Nightmare",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/115_Poxolion.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Poxolion.png"
 			}
 		},
 		{
@@ -1684,7 +1684,7 @@
 			"type": "Instant",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/112_Oona's Disgrace.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Oona's Disgrace.png"
 			}
 		},
 		{
@@ -1704,7 +1704,7 @@
 			"type": "Instant",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/117_Rise from Death.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Rise from Death.png"
 			}
 		},
 		{
@@ -1724,7 +1724,7 @@
 			"type": "Artifact Creature — Scarecrow Wizard",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/252_Knowledge Deliverer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Knowledge Deliverer.png"
 			}
 		},
 		{
@@ -1734,7 +1734,7 @@
 			"type": "Land",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/258_Secluded Village.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Secluded Village.png"
 			}
 		},
 		{
@@ -1744,7 +1744,7 @@
 			"type": "Kindred Land — Shapeshifter",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/260_Spinerock Cliff.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Spinerock Cliff.png"
 			}
 		},
 		{
@@ -1774,7 +1774,7 @@
 			"type": "Creature — Elf Advisor",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/180_Gilt-Leaf Messenger.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Gilt-Leaf Messenger.png"
 			}
 		},
 		{
@@ -1784,7 +1784,7 @@
 			"type": "Creature — Goblin Warrior",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/165_Boggart Smasher.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boggart Smasher.png"
 			}
 		},
 		{
@@ -1794,7 +1794,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/194_Paradise Druid.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Paradise Druid.png"
 			}
 		},
 		{
@@ -1804,7 +1804,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/193_Naturecaller Druid.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Naturecaller Druid.png"
 			}
 		},
 		{
@@ -1814,7 +1814,7 @@
 			"type": "Creature — Shapeshifter",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/166_Changeling Branchrider.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Changeling Branchrider.png"
 			}
 		},
 		{
@@ -1824,7 +1824,7 @@
 			"type": "Creature — Goblin Shaman",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/197_Sapseep Boggart.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Sapseep Boggart.png"
 			}
 		},
 		{
@@ -1834,7 +1834,7 @@
 			"type": "Enchantment Creature — Elemental Nightmare",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/198_Scaryweaver.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Scaryweaver.png"
 			}
 		},
 		{
@@ -1844,7 +1844,7 @@
 			"type": "Creature — Elf Warrior",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/174_Eyeblight Paragon.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Eyeblight Paragon.png"
 			}
 		},
 		{
@@ -1854,7 +1854,7 @@
 			"type": "Sorcery",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/188_Malicious Shoot.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Malicious Shoot.png"
 			}
 		},
 		{
@@ -1864,7 +1864,7 @@
 			"type": "Sorcery",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/175_Fae Remember.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Fae Remember.png"
 			}
 		},
 		{
@@ -1874,7 +1874,7 @@
 			"type": "Sorcery",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/182_Glory Belongs to the Brave.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Glory Belongs to the Brave.png"
 			}
 		},
 		{
@@ -1884,7 +1884,7 @@
 			"type": "Sorcery",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/164_Blow the Horn.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Blow the Horn.png"
 			}
 		},
 		{
@@ -1894,7 +1894,7 @@
 			"type": "Creature — Merfolk Wizard",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/229_Stonybrook Sorcerer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Stonybrook Sorcerer.png"
 			}
 		},
 		{
@@ -1904,7 +1904,7 @@
 			"type": "Enchantment Creature — Faerie Nightmare",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/211_Glen Elendra Weaver.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Glen Elendra Weaver.png"
 			}
 		},
 		{
@@ -1914,7 +1914,7 @@
 			"type": "Creature — Elemental Shaman",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/213_Hellfire Cinder.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Hellfire Cinder.png"
 			}
 		},
 		{
@@ -1924,7 +1924,7 @@
 			"type": "Creature — Goblin Druid",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/218_Mad Uncle.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Mad Uncle.png"
 			}
 		},
 		{
@@ -1934,7 +1934,7 @@
 			"type": "Creature — Giant Warrior",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/234_Tanufel Gatekeeper.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Tanufel Gatekeeper.png"
 			}
 		},
 		{
@@ -1944,7 +1944,7 @@
 			"type": "Creature — Faerie Wizard",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/230_Stormdriver Fae.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Stormdriver Fae.png"
 			}
 		},
 		{
@@ -1954,7 +1954,7 @@
 			"type": "Creature — Elf Shaman",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/228_Shaman of the Pack.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Shaman of the Pack.png"
 			}
 		},
 		{
@@ -1964,7 +1964,7 @@
 			"type": "Enchantment Creature — Elemental Nightmare",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/233_Taleswimmer.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Taleswimmer.png"
 			}
 		},
 		{
@@ -1974,7 +1974,7 @@
 			"type": "Instant",
 			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/205_Cunning Anticipation.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Cunning Anticipation.png"
 			}
 		},
 		{
@@ -1984,7 +1984,7 @@
 			"type": "Instant",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/215_Hollow Detract.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Hollow Detract.png"
 			}
 		},
 		{
@@ -1994,7 +1994,7 @@
 			"type": "Instant",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/209_Fiery Revenge.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Fiery Revenge.png"
 			}
 		},
 		{
@@ -2004,7 +2004,7 @@
 			"type": "Sorcery",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/206_Dangerous Caught.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Dangerous Caught.png"
 			}
 		},
 		{
@@ -2014,7 +2014,7 @@
 			"type": "Instant",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/222_Night Meeting.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Night Meeting.png"
 			}
 		},
 		{
@@ -2024,7 +2024,7 @@
 			"type": "Instant",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/223_Noggle Shot.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Noggle Shot.png"
 			}
 		},
 		{
@@ -2034,7 +2034,7 @@
 			"type": "Sorcery",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/216_Hunter's Mercy.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Hunter's Mercy.png"
 			}
 		},
 		{
@@ -2044,7 +2044,7 @@
 			"type": "Sorcery",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/212_Heated Up.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Heated Up.png"
 			}
 		},
 		{
@@ -2054,7 +2054,7 @@
 			"type": "Sorcery",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/225_Reset the Aurora.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Reset the Aurora.png"
 			}
 		},
 		{
@@ -2064,7 +2064,7 @@
 			"type": "Creature — Elemental Shaman",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/139_Flamekin Harbinger.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flamekin Harbinger.png"
 			}
 		},
 		{
@@ -2074,7 +2074,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/137_Farm Thief.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Farm Thief.png"
 			}
 		},
 		{
@@ -2084,7 +2084,7 @@
 			"type": "Creature — Kithkin Wizard",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/133_Cloverdell Swiftcaster.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Cloverdell Swiftcaster.png"
 			}
 		},
 		{
@@ -2094,7 +2094,7 @@
 			"type": "Creature — Kithkin Archer",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/144_Goldmeadow Hunter.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Goldmeadow Hunter.png"
 			}
 		},
 		{
@@ -2104,7 +2104,7 @@
 			"type": "Creature — Goblin Shaman",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/161_Understory Boggart.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Understory Boggart.png"
 			}
 		},
 		{
@@ -2114,7 +2114,7 @@
 			"type": "Creature — Shapeshifter",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/135_Crimsonwing Changeling.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Crimsonwing Changeling.png"
 			}
 		},
 		{
@@ -2124,7 +2124,7 @@
 			"type": "Creature — Noggle Archer",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/154_Noggle Centinel.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Noggle Centinel.png"
 			}
 		},
 		{
@@ -2134,7 +2134,7 @@
 			"type": "Enchantment Creature — Elemental Nightmare",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/155_Oneiric Flamekin.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Oneiric Flamekin.png"
 			}
 		},
 		{
@@ -2144,7 +2144,7 @@
 			"type": "Sorcery",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/153_Mudbutton Party.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Mudbutton Party.png"
 			}
 		},
 		{
@@ -2154,7 +2154,7 @@
 			"type": "Kindred Artifact — Elemental",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/141_Flamekin's Pyre.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Flamekin's Pyre.png"
 			}
 		},
 		{
@@ -2164,7 +2164,7 @@
 			"type": "Sorcery",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/149_The Journey Continued.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/The Journey Continued.png"
 			}
 		},
 		{
@@ -2174,7 +2174,7 @@
 			"type": "Sorcery",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/125_Boggart Annoyance.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Boggart Annoyance.png"
 			}
 		},
 		{
@@ -2184,7 +2184,7 @@
 			"type": "Instant",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/156_Shocking Strike.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Shocking Strike.png"
 			}
 		},
 		{
@@ -2444,7 +2444,7 @@
 			"type": "Creature — Merfolk Wizard Bard",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/249_River Harpist.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/River Harpist.png"
 			}
 		},
 		{
@@ -2454,7 +2454,7 @@
 			"type": "Creature — Faerie Rogue",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/247_Oona's Stabber.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Oona's Stabber.png"
 			}
 		},
 		{
@@ -2464,7 +2464,7 @@
 			"type": "Creature — Elemental Rogue",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/237_Ashen Flamekin.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Ashen Flamekin.png"
 			}
 		},
 		{
@@ -2474,7 +2474,7 @@
 			"type": "Creature — Goblin Warrior",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/240_Barrage Boggart.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Barrage Boggart.png"
 			}
 		},
 		{
@@ -2484,7 +2484,7 @@
 			"type": "Instant",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/239_Ballyrush Trick.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Ballyrush Trick.png"
 			}
 		},
 		{
@@ -2494,7 +2494,7 @@
 			"type": "Instant",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/242_Fae Exhaustion.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Fae Exhaustion.png"
 			}
 		},
 		{
@@ -2504,7 +2504,7 @@
 			"type": "Creature — Elf Warrior",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/244_Lys Alana Captain.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Lys Alana Captain.png"
 			}
 		},
 		{
@@ -2514,7 +2514,7 @@
 			"type": "Creature — Kithkin Soldier",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/238_Ballyrush Hero.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Ballyrush Hero.png"
 			}
 		},
 		{
@@ -2524,7 +2524,7 @@
 			"type": "Instant",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/248_Quick Transformation.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Quick Transformation.png"
 			}
 		},
 		{
@@ -2664,7 +2664,7 @@
 			"type": "Creature — Elf Rogue",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/103_Lys Alana Cutthroat.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Lys Alana Cutthroat.png"
 			}
 		},
 		{
@@ -2674,7 +2674,7 @@
 			"type": "Artifact",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/123_Witchcraft Cauldron.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Witchcraft Cauldron.png"
 			}
 		},
 		{
@@ -2684,7 +2684,7 @@
 			"type": "Creature — Elemental Knight",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/134_Cloverdell Terror.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Cloverdell Terror.png"
 			}
 		},
 		{
@@ -2694,7 +2694,7 @@
 			"type": "Creature — Goblin Rogue",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/136_Fae Collector.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Fae Collector.png"
 			}
 		},
 		{
@@ -2704,7 +2704,7 @@
 			"type": "Creature — Treefolk Warrior",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/169_Doran's Scion.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Doran's Scion.png"
 			}
 		},
 		{
@@ -2714,7 +2714,7 @@
 			"type": "Creature — Elf Knight",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/178_Gilt-Leaf Cavalry.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Gilt-Leaf Cavalry.png"
 			}
 		},
 		{
@@ -2724,7 +2724,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/179_Gilt-Leaf Herald.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Gilt-Leaf Herald.png"
 			}
 		},
 		{
@@ -2734,7 +2734,7 @@
 			"type": "Creature — Elf Druid",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/187_Lys Alana Naturalist.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Lys Alana Naturalist.png"
 			}
 		},
 		{
@@ -2744,7 +2744,7 @@
 			"type": "Creature — Elf Warrior",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/201_Wren's Run Hunter.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Wren's Run Hunter.png"
 			}
 		},
 		{
@@ -2754,7 +2754,7 @@
 			"type": "Legendary Creature — Elf Shaman",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/208_Eidren, Perfect of Lys Alana.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Eidren, Perfect of Lys Alana.png"
 			}
 		},
 		{
@@ -2764,7 +2764,7 @@
 			"type": "Creature — Kithkin Rogue",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/217_Kinsbaile Spellslinger.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Kinsbaile Spellslinger.png"
 			}
 		},
 		{
@@ -2774,7 +2774,7 @@
 			"type": "Creature — Treefolk Warrior",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/220_Murmuring Fir.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Murmuring Fir.png"
 			}
 		},
 		{
@@ -2784,7 +2784,7 @@
 			"type": "Creature — Kithkin Wizard",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/221_Naturalizer Kithkin.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Naturalizer Kithkin.png"
 			}
 		},
 		{
@@ -2794,7 +2794,7 @@
 			"type": "Legendary Creature — Elf Knight",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/226_Rhys, Daen of Hemlock.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Rhys, Daen of Hemlock.png"
 			}
 		},
 		{
@@ -2804,7 +2804,7 @@
 			"type": "Legendary Creature — Merfolk Wizard",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/232_Sygg, River Sentry.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Sygg, River Sentry.png"
 			}
 		},
 		{
@@ -2814,7 +2814,7 @@
 			"type": "Creature — Kithkin Soldier",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/FOL-files/img/241_Burrenton Hero.png"
+				"en": "https://Asertygoyf.github.io/sets/FOL-files/Burrenton Hero.png"
 			}
 		},
 	]
@@ -2900,7 +2900,7 @@
 	2 Eidren, Perfect of Lys Alana
 	2 Rhys, Daen of Hemlock
 	2 Sygg, River Sentry
-[uncommon(4)]
+[uncommon(3)]
 	4 Cauldron Hedge-Mage
 	4 Skull Armored Changeling
 	4 Marelen's Sorcerer
@@ -3365,3 +3365,105 @@
 	7 Rhys, Daen of Hemlock
 	7 Sygg, River Sentry
 	15 Burrenton Hero
+[Special(1)]
+	8 Flooded Meadow
+	8 Foggy Morass
+	8 Fiery Cliff
+	8 Crowded Understory
+	8 Fertile Field
+	8 Gloomy Hillside
+	8 Muddy Bonfires
+	8 Dusk Woodland
+	8 Saddle Panorama
+	8 Flowery River
+	8 Strangewalker Changeling
+	8 Oona's Swarm
+	8 Oneiric Marauder
+	8 Silent Trotter
+	8 Oneiric Druid
+	8 Superb Perfects
+	8 Eyeblight Blademaster
+	8 Darkin Walker
+	8 Fae Disruption
+	8 Offer Immortality
+	8 Hag's Cauldron
+	8 Mind's Dislodge
+	8 Corrupted Cry
+	8 Dark Burst
+	8 Burrenton Scarecrow
+	8 Warren Dancer
+	8 Allegro Song
+	8 Scarecrow's Haunt
+	8 Aurora Change
+	8 Evergrowing Panorama
+	8 Elvish's Gaze
+	8 Elvish Vigilant
+	8 Pine-Tree Lorekeeper
+	8 Thicket Comrade
+	8 Murmuring Wanderer
+	8 Mossveil Auntie
+	8 Fishaurus Changeling
+	8 Vinejogger
+	8 Lys Alana Battle
+	8 Hunting in the Meadow
+	8 Mighty Growth
+	8 Aurora's Manifest
+	8 Forest Harmony
+	8 Boggart's Adventure
+	8 Thunderhold Boggart
+	8 Valley Party
+	8 Threehorn Changeling
+	8 Boggart Gang
+	8 Mistrustful of Tanufel
+	8 Flamekin Arcanist
+	8 Flamekin Hound
+	8 Flames of Shadowmoor
+	8 Inspirational Song
+	8 Trial of Errors
+	8 Boggart Assault
+	8 Cloverdell Strike
+	8 Flamekin's Rage
+	8 River Selkie
+	8 Fae Pathfinder
+	8 Shore Diplomat
+	8 Emerging Merrow
+	8 Pestermite
+	8 Octoleg Changeling
+	8 Merrow Outburst
+	8 Wanderwine Gatekeeper
+	8 Floodscale
+	8 Momentary Awakening
+	8 Disturb the Mind
+	8 Delve into Thoughts
+	8 Counsel of the Merrow
+	8 Ovine Form
+	8 Overflowed Wave
+	8 Goldmeadow Couple
+	8 Binding Merrow
+	8 Chattering Changeling
+	8 Sumerged Ballyrush
+	8 Dundoolin Caster
+	8 Merrow Lancer
+	8 Sleepy Giant
+	8 Pridewings
+	8 Eternal Journey
+	8 Burrenton Shot
+	8 Otherworld Reinforcements
+	8 Resolute Will
+	8 Cloverdell Hero
+	8 Goldmeadow Pair
+	8 River Fighters
+	8 Elvish Convoker
+	8 Fae Collector
+	8 Gilt-Leaf Cavalry
+	8 Gilt-Leaf Herald
+	8 Blightwing Bandit
+	8 Night Incarnate
+	8 Persist
+	8 Elves of Deep Shadow
+	8 Realmwalker
+	8 Elderfang Venom
+	8 Grumgully, the Generous
+	8 Vodalian Wave-Knight
+	8 Mistmeadow Vanisher
+	8 Swans of Bryn Argoll
