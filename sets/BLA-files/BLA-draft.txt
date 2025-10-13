@@ -1772,8 +1772,7 @@
 		},
 	]
 
-[rare(1)]
-[uncommon(4)]
+[uncommon(3)]
 	4 Chromatic Potion
 	4 Supporter Gecko
 	4 Cavefolk Elder
@@ -1865,7 +1864,7 @@
 	4 Hunted Rodent
 	4 Harbinger of Miseries
 	4 Lilypad Summoner
-[common(7)]
+[common(9)]
 	8 Unified Quest
 	8 Prairie Seer
 	8 Sturdy Quail
