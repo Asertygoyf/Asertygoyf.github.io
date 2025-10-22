@@ -665,9 +665,9 @@
 			"rarity": "common",
 			"mana_cost": "{6}",
 			"type": "Artifact Creature — Shapeshifter",
-			"collector_number": "170",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/170_Sunbaked Paperhorns.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/173_Sunbaked Paperhorns.png"
 			}
 		},
 		{
@@ -685,9 +685,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "169",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/169_Revitalizing Potion.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/171_Revitalizing Potion.png"
 			}
 		},
 		{
@@ -695,9 +695,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains",
-			"collector_number": "173",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/173_Plains.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/182_Plains.png"
 			}
 		},
 		{
@@ -705,9 +705,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest",
-			"collector_number": "177",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/177_Forest.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/186_Forest.png"
 			}
 		},
 		{
@@ -715,9 +715,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island",
-			"collector_number": "174",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/174_Island.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/183_Island.png"
 			}
 		},
 		{
@@ -725,9 +725,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain",
-			"collector_number": "176",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/176_Mountain.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/185_Mountain.png"
 			}
 		},
 		{
@@ -735,9 +735,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp",
-			"collector_number": "175",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/175_Swamp.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/184_Swamp.png"
 			}
 		},
 		{
@@ -845,9 +845,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "171",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/171_Throwing Bottle.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/174_Throwing Bottle.png"
 			}
 		},
 		{
@@ -855,9 +855,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "172",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/172_Fabled Landscape.png"
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/176_Fabled Landscape.png"
 			}
 		},
 		{
@@ -1770,6 +1770,96 @@
 				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/44_Lilypad Summoner.png"
 			}
 		},
+		{
+			"name": "Springleaf Drum",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/172_Springleaf Drum.png"
+			}
+		},
+		{
+			"name": "Majestic Paperwings",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/170_Majestic Paperwings.png"
+			}
+		},
+		{
+			"name": "Idol of Many Kin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Kindred Artifact — Shapeshifter",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/169_Idol of Many Kin.png"
+			}
+		},
+		{
+			"name": "Lupinflower Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Kindred Land",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/178_Lupinflower Panorama.png"
+			}
+		},
+		{
+			"name": "Oakhollow Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/180_Oakhollow Panorama.png"
+			}
+		},
+		{
+			"name": "Lilypad Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/177_Lilypad Panorama.png"
+			}
+		},
+		{
+			"name": "Mudflat Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/179_Mudflat Panorama.png"
+			}
+		},
+		{
+			"name": "Rockface Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/181_Rockface Panorama.png"
+			}
+		},
+		{
+			"name": "Toadmite",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Frog",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/175_Toadmite.png"
+			}
+		},
 	]
 
 [rare(1)]
@@ -1865,6 +1955,15 @@
 	4 Hunted Rodent
 	4 Harbinger of Miseries
 	4 Lilypad Summoner
+	4 Springleaf Drum
+	4 Majestic Paperwings
+	4 Idol of Many Kin
+	4 Lupinflower Panorama
+	4 Oakhollow Panorama
+	4 Lilypad Panorama
+	4 Mudflat Panorama
+	4 Rockface Panorama
+	4 Toadmite
 [common(7)]
 	8 Unified Quest
 	8 Prairie Seer
@@ -2120,3 +2219,12 @@
 	15 Hunted Rodent
 	15 Harbinger of Miseries
 	15 Lilypad Summoner
+	15 Springleaf Drum
+	15 Majestic Paperwings
+	15 Idol of Many Kin
+	15 Lupinflower Panorama
+	15 Oakhollow Panorama
+	15 Lilypad Panorama
+	15 Mudflat Panorama
+	15 Rockface Panorama
+	15 Toadmite
