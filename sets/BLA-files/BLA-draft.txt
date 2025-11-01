@@ -1862,7 +1862,8 @@
 		},
 	]
 
-[uncommon(3)]
+[rare(1)]
+[uncommon(4)]
 	4 Chromatic Potion
 	4 Supporter Gecko
 	4 Cavefolk Elder
@@ -1963,7 +1964,7 @@
 	4 Mudflat Panorama
 	4 Rockface Panorama
 	4 Toadmite
-[common(8)]
+[common(7)]
 	8 Unified Quest
 	8 Prairie Seer
 	8 Sturdy Quail
