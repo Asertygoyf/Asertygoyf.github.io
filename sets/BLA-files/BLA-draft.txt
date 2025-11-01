@@ -1294,7 +1294,7 @@
 			"name": "Hare Pack",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{W}",
-			"type": "Tribal Sorcery — Rabbit",
+			"type": "Kindred Sorcery — Rabbit",
 			"collector_number": "152",
 			"image_uris": {
 				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/152_Hare Pack.png"
@@ -1862,8 +1862,8 @@
 		},
 	]
 
-[rare(0)]
-[uncommon(3)]
+[rare(1)]
+[uncommon(4)]
 	4 Chromatic Potion
 	4 Supporter Gecko
 	4 Cavefolk Elder
@@ -1964,7 +1964,7 @@
 	4 Mudflat Panorama
 	4 Rockface Panorama
 	4 Toadmite
-[common(8)]
+[common(7)]
 	8 Unified Quest
 	8 Prairie Seer
 	8 Sturdy Quail
