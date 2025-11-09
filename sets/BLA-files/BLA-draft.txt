@@ -1,0 +1,2230 @@
+[CustomCards]
+	[
+		{
+			"name": "Unified Quest",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Kindred Sorcery — Rabbit",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/29_Unified Quest.png"
+			}
+		},
+		{
+			"name": "Prairie Seer",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Rabbit Scout",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/21_Prairie Seer.png"
+			}
+		},
+		{
+			"name": "Sturdy Quail",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Bird Scout",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/26_Sturdy Quail.png"
+			}
+		},
+		{
+			"name": "Send Correspondence",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Sorcery",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/51_Send Correspondence.png"
+			}
+		},
+		{
+			"name": "Confessed Glutton",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Rat Rogue",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/32_Confessed Glutton.png"
+			}
+		},
+		{
+			"name": "Otter Foolishness",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Kindred Sorcery — Otter",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/45_Otter Foolishness.png"
+			}
+		},
+		{
+			"name": "Feathered Mentors",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird Soldier",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/40_Feathered Mentors.png"
+			}
+		},
+		{
+			"name": "Scaleblade Bandit",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Lizard Warrior",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/83_Scaleblade Bandit.png"
+			}
+		},
+		{
+			"name": "Alley Stabber",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Rat Rogue",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/59_Alley Stabber.png"
+			}
+		},
+		{
+			"name": "Fisherlizard",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Lizard Rogue",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/69_Fisherlizard.png"
+			}
+		},
+		{
+			"name": "Bat Necromancer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Bat Warlock",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/60_Bat Necromancer.png"
+			}
+		},
+		{
+			"name": "Lookout Rat",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Rat Scout",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/79_Lookout Rat.png"
+			}
+		},
+		{
+			"name": "Pyromaniac Looter",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Lizard Wizard",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/100_Pyromaniac Looter.png"
+			}
+		},
+		{
+			"name": "Accurate Archer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Mouse Archer",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/88_Accurate Archer.png"
+			}
+		},
+		{
+			"name": "Roof Intruder",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Raccoon Rogue",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/107_Roof Intruder.png"
+			}
+		},
+		{
+			"name": "Autumnveil Druid",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Rabbit Druid",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/119_Autumnveil Druid.png"
+			}
+		},
+		{
+			"name": "Oathsworn Rabbit",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Rabbit Warrior",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/133_Oathsworn Rabbit.png"
+			}
+		},
+		{
+			"name": "Glider Shinobi",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Squirrel Ninja",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/126_Glider Shinobi.png"
+			}
+		},
+		{
+			"name": "Potion Maker",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Frog Druid",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/137_Potion Maker.png"
+			}
+		},
+		{
+			"name": "Forest Gatekeeper",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Raccoon Warrior",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/125_Forest Gatekeeper.png"
+			}
+		},
+		{
+			"name": "Burrow Patriot",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Mouse Warrior",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/5_Burrow Patriot.png"
+			}
+		},
+		{
+			"name": "Leading Squadron",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Soldier",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/17_Leading Squadron.png"
+			}
+		},
+		{
+			"name": "Reptilian Lancer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Lizard Soldier",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/103_Reptilian Lancer.png"
+			}
+		},
+		{
+			"name": "Raccoon Celebrant",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Raccoon Bard",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/101_Raccoon Celebrant.png"
+			}
+		},
+		{
+			"name": "Singing Frog",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Frog Bard",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/52_Singing Frog.png"
+			}
+		},
+		{
+			"name": "Bell-Bearer Otter",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Otter Wizard",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/30_Bell-Bearer Otter.png"
+			}
+		},
+		{
+			"name": "Intimidating Gecko",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Lizard Warrior",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/78_Intimidating Gecko.png"
+			}
+		},
+		{
+			"name": "Runaway Messenger",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Lizard Rogue",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/108_Runaway Messenger.png"
+			}
+		},
+		{
+			"name": "Incense Spreader",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bat Cleric",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/14_Incense Spreader.png"
+			}
+		},
+		{
+			"name": "Cursed Skitterling",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Rat Warlock",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/66_Cursed Skitterling.png"
+			}
+		},
+		{
+			"name": "Bloodwing Teether",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bat Warlock",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/61_Bloodwing Teether.png"
+			}
+		},
+		{
+			"name": "Seaside Seeker",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Otter Scout",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/50_Seaside Seeker.png"
+			}
+		},
+		{
+			"name": "Nightfang Healer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bat Cleric",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/20_Nightfang Healer.png"
+			}
+		},
+		{
+			"name": "Battle-Squealer",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Mouse Warrior",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/89_Battle-Squealer.png"
+			}
+		},
+		{
+			"name": "Deathrattle Mouse",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Mouse Warrior",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/9_Deathrattle Mouse.png"
+			}
+		},
+		{
+			"name": "Inspiring Buccaneer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Mouse Pirate",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/96_Inspiring Buccaneer.png"
+			}
+		},
+		{
+			"name": "Jumping Adventurer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Frog Scout",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/42_Jumping Adventurer.png"
+			}
+		},
+		{
+			"name": "Lupinflower Sentinel",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Mouse Soldier",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/18_Lupinflower Sentinel.png"
+			}
+		},
+		{
+			"name": "Branch Patrol",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Squirrel Soldier",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/63_Branch Patrol.png"
+			}
+		},
+		{
+			"name": "Event Cheerleader",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Frog Bard",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/123_Event Cheerleader.png"
+			}
+		},
+		{
+			"name": "Sparkmage Weaver",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Otter Wizard",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/113_Sparkmage Weaver.png"
+			}
+		},
+		{
+			"name": "Redcap Rat",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Rat Rogue",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/47_Redcap Rat.png"
+			}
+		},
+		{
+			"name": "Croaknight",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Frog Knight",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/34_Croaknight.png"
+			}
+		},
+		{
+			"name": "Stucked Scavenger",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Raccoon Warrior",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/145_Stucked Scavenger.png"
+			}
+		},
+		{
+			"name": "Fishmonger's Work",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Kindred Sorcery — Otter",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/92_Fishmonger's Work.png"
+			}
+		},
+		{
+			"name": "Battlefield Supplier",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Hamster Warrior",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/2_Battlefield Supplier.png"
+			}
+		},
+		{
+			"name": "Prosecute",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/22_Prosecute.png"
+			}
+		},
+		{
+			"name": "Imposing Ascent",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/13_Imposing Ascent.png"
+			}
+		},
+		{
+			"name": "Take Out for a Ride",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/56_Take Out for a Ride.png"
+			}
+		},
+		{
+			"name": "Beat Up Together",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/3_Beat Up Together.png"
+			}
+		},
+		{
+			"name": "Sibling Spat",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/111_Sibling Spat.png"
+			}
+		},
+		{
+			"name": "Expel from the Town",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/39_Expel from the Town.png"
+			}
+		},
+		{
+			"name": "Digging for Snacks",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/121_Digging for Snacks.png"
+			}
+		},
+		{
+			"name": "Rodent's Fireball",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/106_Rodent's Fireball.png"
+			}
+		},
+		{
+			"name": "Stinky Stance",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/85_Stinky Stance.png"
+			}
+		},
+		{
+			"name": "Squeak for Answers",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/84_Squeak for Answers.png"
+			}
+		},
+		{
+			"name": "Flashborn",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/41_Flashborn.png"
+			}
+		},
+		{
+			"name": "Bushy Wayfinder",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Squirrel Scout",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/64_Bushy Wayfinder.png"
+			}
+		},
+		{
+			"name": "Plundering Stab",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/82_Plundering Stab.png"
+			}
+		},
+		{
+			"name": "From Behind",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/71_From Behind.png"
+			}
+		},
+		{
+			"name": "Piercing Eyes",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/81_Piercing Eyes.png"
+			}
+		},
+		{
+			"name": "Glimpse the Horizon",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/127_Glimpse the Horizon.png"
+			}
+		},
+		{
+			"name": "Drop Down",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/122_Drop Down.png"
+			}
+		},
+		{
+			"name": "Break the Branch",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/90_Break the Branch.png"
+			}
+		},
+		{
+			"name": "Salamander's Firepalm",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Instant",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/109_Salamander's Firepalm.png"
+			}
+		},
+		{
+			"name": "Acorn Strength",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/118_Acorn Strength.png"
+			}
+		},
+		{
+			"name": "Sunbaked Paperhorns",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/173_Sunbaked Paperhorns.png"
+			}
+		},
+		{
+			"name": "Folk of Paperwings",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/168_Folk of Paperwings.png"
+			}
+		},
+		{
+			"name": "Revitalizing Potion",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/171_Revitalizing Potion.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/182_Plains.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/186_Forest.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/183_Island.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/185_Mountain.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/184_Swamp.png"
+			}
+		},
+		{
+			"name": "Defensive Palisade",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Wall",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/167_Defensive Palisade.png"
+			}
+		},
+		{
+			"name": "Scaredy Duo",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Rabbit Wizard",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/25_Scaredy Duo.png"
+			}
+		},
+		{
+			"name": "Pond Dweller",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Frog Warrior",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/135_Pond Dweller.png"
+			}
+		},
+		{
+			"name": "Acorn Brawler",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Squirrel Warrior",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/117_Acorn Brawler.png"
+			}
+		},
+		{
+			"name": "Mice's Slash",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/19_Mice's Slash.png"
+			}
+		},
+		{
+			"name": "Deny Order",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/37_Deny Order.png"
+			}
+		},
+		{
+			"name": "Joint Attack",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/130_Joint Attack.png"
+			}
+		},
+		{
+			"name": "Reckless Fall",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/102_Reckless Fall.png"
+			}
+		},
+		{
+			"name": "Ranger Cadet",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Squirrel Ranger",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/141_Ranger Cadet.png"
+			}
+		},
+		{
+			"name": "Startled Ringer",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Bird Bard",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/55_Startled Ringer.png"
+			}
+		},
+		{
+			"name": "Throwing Bottle",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/174_Throwing Bottle.png"
+			}
+		},
+		{
+			"name": "Fabled Landscape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/176_Fabled Landscape.png"
+			}
+		},
+		{
+			"name": "Chromatic Potion",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/166_Chromatic Potion.png"
+			}
+		},
+		{
+			"name": "Supporter Gecko",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Lizard Warrior",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/86_Supporter Gecko.png"
+			}
+		},
+		{
+			"name": "Cavefolk Elder",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Bat Rogue",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/65_Cavefolk Elder.png"
+			}
+		},
+		{
+			"name": "Gem Harvester",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Squirrel Scout",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/72_Gem Harvester.png"
+			}
+		},
+		{
+			"name": "Elusive Lizard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Lizard Rogue",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/68_Elusive Lizard.png"
+			}
+		},
+		{
+			"name": "Humble Cook",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Rat Citizen",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/75_Humble Cook.png"
+			}
+		},
+		{
+			"name": "Whiskerwrong",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Rat Advisor",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/87_Whiskerwrong.png"
+			}
+		},
+		{
+			"name": "Bloody Baron",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bat Noble",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/62_Bloody Baron.png"
+			}
+		},
+		{
+			"name": "Meowing Calamity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Elemental Cat",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/80_Meowing Calamity.png"
+			}
+		},
+		{
+			"name": "Ill-Fated Journey",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/76_Ill-Fated Journey.png"
+			}
+		},
+		{
+			"name": "Despair of the Castaways",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/67_Despair of the Castaways.png"
+			}
+		},
+		{
+			"name": "Heartless Act",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/74_Heartless Act.png"
+			}
+		},
+		{
+			"name": "I'm Not Strong Enough",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/77_I'm Not Strong Enough.png"
+			}
+		},
+		{
+			"name": "Focused Extermination",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}",
+			"type": "Sorcery",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/70_Focused Extermination.png"
+			}
+		},
+		{
+			"name": "Prodigal Trashmancer",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Raccoon Druid",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/139_Prodigal Trashmancer.png"
+			}
+		},
+		{
+			"name": "Pond Summoner",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Frog Warrior",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/136_Pond Summoner.png"
+			}
+		},
+		{
+			"name": "Incited Glutton",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Squirrel Warrior",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/128_Incited Glutton.png"
+			}
+		},
+		{
+			"name": "Priest of the Warren",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Rabbit Druid",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/138_Priest of the Warren.png"
+			}
+		},
+		{
+			"name": "Evergreenleaf Banneret",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Squirrel Warrior",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/124_Evergreenleaf Banneret.png"
+			}
+		},
+		{
+			"name": "Croaking Monk",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Frog Monk",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/120_Croaking Monk.png"
+			}
+		},
+		{
+			"name": "Proficient Trashmancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Raccoon Artificer",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/140_Proficient Trashmancer.png"
+			}
+		},
+		{
+			"name": "Rootwalker Musketeer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Rabbit Warrior",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/143_Rootwalker Musketeer.png"
+			}
+		},
+		{
+			"name": "Overwhelming Calamity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Elemental Elk",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/134_Overwhelming Calamity.png"
+			}
+		},
+		{
+			"name": "Mossveil Guard",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/132_Mossveil Guard.png"
+			}
+		},
+		{
+			"name": "Inherited Rod",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/129_Inherited Rod.png"
+			}
+		},
+		{
+			"name": "Reclaim the Wilds",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Instant",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/142_Reclaim the Wilds.png"
+			}
+		},
+		{
+			"name": "Jumping Adventures",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/131_Jumping Adventures.png"
+			}
+		},
+		{
+			"name": "Strike Together",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Instant",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/144_Strike Together.png"
+			}
+		},
+		{
+			"name": "Winged Sage",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Bird Wizard",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/165_Winged Sage.png"
+			}
+		},
+		{
+			"name": "Warband Stirrer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Rat Warrior",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/164_Warband Stirrer.png"
+			}
+		},
+		{
+			"name": "Stabber Skink",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Lizard Warrior",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/161_Stabber Skink.png"
+			}
+		},
+		{
+			"name": "Solstice Celebrant",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Creature — Raccoon Bard",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/160_Solstice Celebrant.png"
+			}
+		},
+		{
+			"name": "Town Agitator",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Rabbit Rebel",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/163_Town Agitator.png"
+			}
+		},
+		{
+			"name": "Dawnwing Skyrider",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Creature — Bat Scout",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/148_Dawnwing Skyrider.png"
+			}
+		},
+		{
+			"name": "Ripplemind Acolyte",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Creature — Otter Monk",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/159_Ripplemind Acolyte.png"
+			}
+		},
+		{
+			"name": "Delighted Forager",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Squirrel Scout",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/149_Delighted Forager.png"
+			}
+		},
+		{
+			"name": "Portent Wayfarer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Mouse Scout",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/157_Portent Wayfarer.png"
+			}
+		},
+		{
+			"name": "Ninja Replication",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/155_Ninja Replication.png"
+			}
+		},
+		{
+			"name": "Professional Jumper",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Frog Rogue",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/158_Professional Jumper.png"
+			}
+		},
+		{
+			"name": "Efficient Transport",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Instant",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/150_Efficient Transport.png"
+			}
+		},
+		{
+			"name": "Mischief Will",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Kindred Enchantment — Rat Aura",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/154_Mischief Will.png"
+			}
+		},
+		{
+			"name": "Perilous Curiosity",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Instant",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/156_Perilous Curiosity.png"
+			}
+		},
+		{
+			"name": "Into the Maw of Death",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Kindred Sorcery — Raccoon",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/153_Into the Maw of Death.png"
+			}
+		},
+		{
+			"name": "Hare Pack",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Kindred Sorcery — Rabbit",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/152_Hare Pack.png"
+			}
+		},
+		{
+			"name": "Clinging Screech",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/147_Clinging Screech.png"
+			}
+		},
+		{
+			"name": "Thrill of Anticipation",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Instant",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/162_Thrill of Anticipation.png"
+			}
+		},
+		{
+			"name": "Foresee Tomorrow",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Instant",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/151_Foresee Tomorrow.png"
+			}
+		},
+		{
+			"name": "Battlesqueak",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/146_Battlesqueak.png"
+			}
+		},
+		{
+			"name": "Spellcaster Moloch",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Lizard Wizard",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/114_Spellcaster Moloch.png"
+			}
+		},
+		{
+			"name": "Slinking Instigator",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Raccoon Rogue",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/112_Slinking Instigator.png"
+			}
+		},
+		{
+			"name": "Twinblade Guard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Otter Warrior",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/116_Twinblade Guard.png"
+			}
+		},
+		{
+			"name": "Scalechant Sage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Lizard Wizard",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/110_Scalechant Sage.png"
+			}
+		},
+		{
+			"name": "Swift Duelist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Mouse Soldier",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/115_Swift Duelist.png"
+			}
+		},
+		{
+			"name": "River Deadeye",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Otter Archer",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/104_River Deadeye.png"
+			}
+		},
+		{
+			"name": "Rockface Militia",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Mouse Soldier",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/105_Rockface Militia.png"
+			}
+		},
+		{
+			"name": "Disguised Raccoons",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Raccoon Rogue",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/91_Disguised Raccoons.png"
+			}
+		},
+		{
+			"name": "Lurking Lynx",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Elemental Cat",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/98_Lurking Lynx.png"
+			}
+		},
+		{
+			"name": "Joyful Gift",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/97_Joyful Gift.png"
+			}
+		},
+		{
+			"name": "Incendiary Relic",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Treasure",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/94_Incendiary Relic.png"
+			}
+		},
+		{
+			"name": "Piercing Shot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/99_Piercing Shot.png"
+			}
+		},
+		{
+			"name": "Follow the Marks",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/93_Follow the Marks.png"
+			}
+		},
+		{
+			"name": "Incite Rebellion",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/95_Incite Rebellion.png"
+			}
+		},
+		{
+			"name": "Slippery Bandit",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Rat Rogue",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/54_Slippery Bandit.png"
+			}
+		},
+		{
+			"name": "Cunning Pair",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Otter Bird",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/35_Cunning Pair.png"
+			}
+		},
+		{
+			"name": "Riverbank Couple",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Frog Rat",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/49_Riverbank Couple.png"
+			}
+		},
+		{
+			"name": "Slingshot Owl",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird Archer",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/53_Slingshot Owl.png"
+			}
+		},
+		{
+			"name": "Conjuring Mastery",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Kindred Enchantment — Otter",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/33_Conjuring Mastery.png"
+			}
+		},
+		{
+			"name": "Toad Vanguard",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Frog Warrior",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/57_Toad Vanguard.png"
+			}
+		},
+		{
+			"name": "Penguin Captain",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Bird Pirate",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/46_Penguin Captain.png"
+			}
+		},
+		{
+			"name": "Wavemaster Calamity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Elemental Fish",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/58_Wavemaster Calamity.png"
+			}
+		},
+		{
+			"name": "Calamity's Curse",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/31_Calamity's Curse.png"
+			}
+		},
+		{
+			"name": "Revealing Gust",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/48_Revealing Gust.png"
+			}
+		},
+		{
+			"name": "Disallow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/38_Disallow.png"
+			}
+		},
+		{
+			"name": "Leap of Joy",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/43_Leap of Joy.png"
+			}
+		},
+		{
+			"name": "Dance of Duplication",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/36_Dance of Duplication.png"
+			}
+		},
+		{
+			"name": "Ultrasound Entertainer",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Bat Bard",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/28_Ultrasound Entertainer.png"
+			}
+		},
+		{
+			"name": "Elusive Corral-Runner",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Rabbit Rogue",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/11_Elusive Corral-Runner.png"
+			}
+		},
+		{
+			"name": "Knight of the Squeak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Mouse Knight",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/15_Knight of the Squeak.png"
+			}
+		},
+		{
+			"name": "Elderly Professor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird Rabbit Wizard",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/10_Elderly Professor.png"
+			}
+		},
+		{
+			"name": "Dawnbringer Bard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Rabbit Bard",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/8_Dawnbringer Bard.png"
+			}
+		},
+		{
+			"name": "Canary Bard",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird Bard",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/6_Canary Bard.png"
+			}
+		},
+		{
+			"name": "Suncrested Calamity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Elemental Elk",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/27_Suncrested Calamity.png"
+			}
+		},
+		{
+			"name": "Ambush from Above",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/1_Ambush from Above.png"
+			}
+		},
+		{
+			"name": "Creeping Hunt",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/7_Creeping Hunt.png"
+			}
+		},
+		{
+			"name": "Repel Calamity",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/24_Repel Calamity.png"
+			}
+		},
+		{
+			"name": "Lead the Charge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/16_Lead the Charge.png"
+			}
+		},
+		{
+			"name": "Bibliophile Owl",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Wizard",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/4_Bibliophile Owl.png"
+			}
+		},
+		{
+			"name": "Ranch Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Rabbit Warrior",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/23_Ranch Guardian.png"
+			}
+		},
+		{
+			"name": "Hunted Rodent",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Mouse Coward",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/12_Hunted Rodent.png"
+			}
+		},
+		{
+			"name": "Harbinger of Miseries",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Squirrel Druid",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/73_Harbinger of Miseries.png"
+			}
+		},
+		{
+			"name": "Lilypad Summoner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Rat Warlock",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/44_Lilypad Summoner.png"
+			}
+		},
+		{
+			"name": "Springleaf Drum",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/172_Springleaf Drum.png"
+			}
+		},
+		{
+			"name": "Majestic Paperwings",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Shapeshifter",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/170_Majestic Paperwings.png"
+			}
+		},
+		{
+			"name": "Idol of Many Kin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Kindred Artifact — Shapeshifter",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/169_Idol of Many Kin.png"
+			}
+		},
+		{
+			"name": "Lupinflower Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Kindred Land",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/178_Lupinflower Panorama.png"
+			}
+		},
+		{
+			"name": "Oakhollow Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/180_Oakhollow Panorama.png"
+			}
+		},
+		{
+			"name": "Lilypad Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/177_Lilypad Panorama.png"
+			}
+		},
+		{
+			"name": "Mudflat Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/179_Mudflat Panorama.png"
+			}
+		},
+		{
+			"name": "Rockface Panorama",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/181_Rockface Panorama.png"
+			}
+		},
+		{
+			"name": "Toadmite",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Frog",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/BLA-files/img/175_Toadmite.png"
+			}
+		},
+	]
+
+[rare(1)]
+[uncommon(4)]
+	4 Chromatic Potion
+	4 Supporter Gecko
+	4 Cavefolk Elder
+	4 Gem Harvester
+	4 Elusive Lizard
+	4 Humble Cook
+	4 Whiskerwrong
+	4 Bloody Baron
+	4 Meowing Calamity
+	4 Ill-Fated Journey
+	4 Despair of the Castaways
+	4 Heartless Act
+	4 I'm Not Strong Enough
+	4 Focused Extermination
+	4 Prodigal Trashmancer
+	4 Pond Summoner
+	4 Incited Glutton
+	4 Priest of the Warren
+	4 Evergreenleaf Banneret
+	4 Croaking Monk
+	4 Proficient Trashmancer
+	4 Rootwalker Musketeer
+	4 Overwhelming Calamity
+	4 Mossveil Guard
+	4 Inherited Rod
+	4 Reclaim the Wilds
+	4 Jumping Adventures
+	4 Strike Together
+	4 Winged Sage
+	4 Warband Stirrer
+	4 Stabber Skink
+	4 Solstice Celebrant
+	4 Town Agitator
+	4 Dawnwing Skyrider
+	4 Ripplemind Acolyte
+	4 Delighted Forager
+	4 Portent Wayfarer
+	4 Ninja Replication
+	4 Professional Jumper
+	4 Efficient Transport
+	4 Mischief Will
+	4 Perilous Curiosity
+	4 Into the Maw of Death
+	4 Hare Pack
+	4 Clinging Screech
+	4 Thrill of Anticipation
+	4 Foresee Tomorrow
+	4 Battlesqueak
+	4 Spellcaster Moloch
+	4 Slinking Instigator
+	4 Twinblade Guard
+	4 Scalechant Sage
+	4 Swift Duelist
+	4 River Deadeye
+	4 Rockface Militia
+	4 Disguised Raccoons
+	4 Lurking Lynx
+	4 Joyful Gift
+	4 Incendiary Relic
+	4 Piercing Shot
+	4 Follow the Marks
+	4 Incite Rebellion
+	4 Slippery Bandit
+	4 Cunning Pair
+	4 Riverbank Couple
+	4 Slingshot Owl
+	4 Conjuring Mastery
+	4 Toad Vanguard
+	4 Penguin Captain
+	4 Wavemaster Calamity
+	4 Calamity's Curse
+	4 Revealing Gust
+	4 Disallow
+	4 Leap of Joy
+	4 Dance of Duplication
+	4 Ultrasound Entertainer
+	4 Elusive Corral-Runner
+	4 Knight of the Squeak
+	4 Elderly Professor
+	4 Dawnbringer Bard
+	4 Canary Bard
+	4 Suncrested Calamity
+	4 Ambush from Above
+	4 Creeping Hunt
+	4 Repel Calamity
+	4 Lead the Charge
+	4 Bibliophile Owl
+	4 Ranch Guardian
+	4 Hunted Rodent
+	4 Harbinger of Miseries
+	4 Lilypad Summoner
+	4 Springleaf Drum
+	4 Majestic Paperwings
+	4 Idol of Many Kin
+	4 Lupinflower Panorama
+	4 Oakhollow Panorama
+	4 Lilypad Panorama
+	4 Mudflat Panorama
+	4 Rockface Panorama
+	4 Toadmite
+[common(7)]
+	8 Unified Quest
+	8 Prairie Seer
+	8 Sturdy Quail
+	8 Send Correspondence
+	8 Confessed Glutton
+	8 Otter Foolishness
+	8 Feathered Mentors
+	8 Scaleblade Bandit
+	8 Alley Stabber
+	8 Fisherlizard
+	8 Bat Necromancer
+	8 Lookout Rat
+	8 Pyromaniac Looter
+	8 Accurate Archer
+	8 Roof Intruder
+	8 Autumnveil Druid
+	8 Oathsworn Rabbit
+	8 Glider Shinobi
+	8 Potion Maker
+	8 Forest Gatekeeper
+	8 Burrow Patriot
+	8 Leading Squadron
+	8 Reptilian Lancer
+	8 Raccoon Celebrant
+	8 Singing Frog
+	8 Bell-Bearer Otter
+	8 Intimidating Gecko
+	8 Runaway Messenger
+	8 Incense Spreader
+	8 Cursed Skitterling
+	8 Bloodwing Teether
+	8 Seaside Seeker
+	8 Nightfang Healer
+	8 Battle-Squealer
+	8 Deathrattle Mouse
+	8 Inspiring Buccaneer
+	8 Jumping Adventurer
+	8 Lupinflower Sentinel
+	8 Branch Patrol
+	8 Event Cheerleader
+	8 Sparkmage Weaver
+	8 Redcap Rat
+	8 Croaknight
+	8 Stucked Scavenger
+	8 Fishmonger's Work
+	8 Battlefield Supplier
+	8 Prosecute
+	8 Imposing Ascent
+	8 Take Out for a Ride
+	8 Beat Up Together
+	8 Sibling Spat
+	8 Expel from the Town
+	8 Digging for Snacks
+	8 Rodent's Fireball
+	8 Stinky Stance
+	8 Squeak for Answers
+	8 Flashborn
+	8 Bushy Wayfinder
+	8 Plundering Stab
+	8 From Behind
+	8 Piercing Eyes
+	8 Glimpse the Horizon
+	8 Drop Down
+	8 Break the Branch
+	8 Salamander's Firepalm
+	8 Acorn Strength
+	8 Sunbaked Paperhorns
+	8 Folk of Paperwings
+	8 Revitalizing Potion
+	8 Defensive Palisade
+	8 Scaredy Duo
+	8 Pond Dweller
+	8 Acorn Brawler
+	8 Mice's Slash
+	8 Deny Order
+	8 Joint Attack
+	8 Reckless Fall
+	8 Ranger Cadet
+	8 Startled Ringer
+	8 Throwing Bottle
+	8 Fabled Landscape
+[wildcard(2)]
+	6 Unified Quest
+	6 Prairie Seer
+	6 Sturdy Quail
+	6 Send Correspondence
+	6 Confessed Glutton
+	6 Otter Foolishness
+	6 Feathered Mentors
+	6 Scaleblade Bandit
+	6 Alley Stabber
+	6 Fisherlizard
+	6 Bat Necromancer
+	6 Lookout Rat
+	6 Pyromaniac Looter
+	6 Accurate Archer
+	6 Roof Intruder
+	6 Autumnveil Druid
+	6 Oathsworn Rabbit
+	6 Glider Shinobi
+	6 Potion Maker
+	6 Forest Gatekeeper
+	6 Burrow Patriot
+	6 Leading Squadron
+	6 Reptilian Lancer
+	6 Raccoon Celebrant
+	6 Singing Frog
+	6 Bell-Bearer Otter
+	6 Intimidating Gecko
+	6 Runaway Messenger
+	6 Incense Spreader
+	6 Cursed Skitterling
+	6 Bloodwing Teether
+	6 Seaside Seeker
+	6 Nightfang Healer
+	6 Battle-Squealer
+	6 Deathrattle Mouse
+	6 Inspiring Buccaneer
+	6 Jumping Adventurer
+	6 Lupinflower Sentinel
+	6 Branch Patrol
+	6 Event Cheerleader
+	6 Sparkmage Weaver
+	6 Redcap Rat
+	6 Croaknight
+	6 Stucked Scavenger
+	6 Fishmonger's Work
+	6 Battlefield Supplier
+	6 Prosecute
+	6 Imposing Ascent
+	6 Take Out for a Ride
+	6 Beat Up Together
+	6 Sibling Spat
+	6 Expel from the Town
+	6 Digging for Snacks
+	6 Rodent's Fireball
+	6 Stinky Stance
+	6 Squeak for Answers
+	6 Flashborn
+	6 Bushy Wayfinder
+	6 Plundering Stab
+	6 From Behind
+	6 Piercing Eyes
+	6 Glimpse the Horizon
+	6 Drop Down
+	6 Break the Branch
+	6 Salamander's Firepalm
+	6 Acorn Strength
+	6 Sunbaked Paperhorns
+	6 Folk of Paperwings
+	6 Revitalizing Potion
+	6 Defensive Palisade
+	6 Scaredy Duo
+	6 Pond Dweller
+	6 Acorn Brawler
+	6 Mice's Slash
+	6 Deny Order
+	6 Joint Attack
+	6 Reckless Fall
+	6 Ranger Cadet
+	6 Startled Ringer
+	6 Throwing Bottle
+	6 Fabled Landscape
+	15 Chromatic Potion
+	15 Supporter Gecko
+	15 Cavefolk Elder
+	15 Gem Harvester
+	15 Elusive Lizard
+	15 Humble Cook
+	15 Whiskerwrong
+	15 Bloody Baron
+	15 Meowing Calamity
+	15 Ill-Fated Journey
+	15 Despair of the Castaways
+	15 Heartless Act
+	15 I'm Not Strong Enough
+	15 Focused Extermination
+	15 Prodigal Trashmancer
+	15 Pond Summoner
+	15 Incited Glutton
+	15 Priest of the Warren
+	15 Evergreenleaf Banneret
+	15 Croaking Monk
+	15 Proficient Trashmancer
+	15 Rootwalker Musketeer
+	15 Overwhelming Calamity
+	15 Mossveil Guard
+	15 Inherited Rod
+	15 Reclaim the Wilds
+	15 Jumping Adventures
+	15 Strike Together
+	15 Winged Sage
+	15 Warband Stirrer
+	15 Stabber Skink
+	15 Solstice Celebrant
+	15 Town Agitator
+	15 Dawnwing Skyrider
+	15 Ripplemind Acolyte
+	15 Delighted Forager
+	15 Portent Wayfarer
+	15 Ninja Replication
+	15 Professional Jumper
+	15 Efficient Transport
+	15 Mischief Will
+	15 Perilous Curiosity
+	15 Into the Maw of Death
+	15 Hare Pack
+	15 Clinging Screech
+	15 Thrill of Anticipation
+	15 Foresee Tomorrow
+	15 Battlesqueak
+	15 Spellcaster Moloch
+	15 Slinking Instigator
+	15 Twinblade Guard
+	15 Scalechant Sage
+	15 Swift Duelist
+	15 River Deadeye
+	15 Rockface Militia
+	15 Disguised Raccoons
+	15 Lurking Lynx
+	15 Joyful Gift
+	15 Incendiary Relic
+	15 Piercing Shot
+	15 Follow the Marks
+	15 Incite Rebellion
+	15 Slippery Bandit
+	15 Cunning Pair
+	15 Riverbank Couple
+	15 Slingshot Owl
+	15 Conjuring Mastery
+	15 Toad Vanguard
+	15 Penguin Captain
+	15 Wavemaster Calamity
+	15 Calamity's Curse
+	15 Revealing Gust
+	15 Disallow
+	15 Leap of Joy
+	15 Dance of Duplication
+	15 Ultrasound Entertainer
+	15 Elusive Corral-Runner
+	15 Knight of the Squeak
+	15 Elderly Professor
+	15 Dawnbringer Bard
+	15 Canary Bard
+	15 Suncrested Calamity
+	15 Ambush from Above
+	15 Creeping Hunt
+	15 Repel Calamity
+	15 Lead the Charge
+	15 Bibliophile Owl
+	15 Ranch Guardian
+	15 Hunted Rodent
+	15 Harbinger of Miseries
+	15 Lilypad Summoner
+	15 Springleaf Drum
+	15 Majestic Paperwings
+	15 Idol of Many Kin
+	15 Lupinflower Panorama
+	15 Oakhollow Panorama
+	15 Lilypad Panorama
+	15 Mudflat Panorama
+	15 Rockface Panorama
+	15 Toadmite
