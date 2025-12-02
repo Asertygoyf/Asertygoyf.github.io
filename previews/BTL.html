@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/BTL-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>BTL visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/BTL-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BTL-files/icon.png" />
+		<img class="preload-hidden" src="/sets/FOL-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BTL"><img src="/sets/BTL-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="FOL"><img src="/sets/FOL-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/BTL-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\BTL-files\img\3_MW01 — Veteran Harvester.png" id="3_MW01 — Veteran Harvester" data-flag="@X" onclick="openSidebar('3_MW01 — Veteran Harvester',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\14_MU01 — Mikee, the Slippery.png" id="14_MU01 — Mikee, the Slippery" data-flag="@X" onclick="openSidebar('14_MU01 — Mikee, the Slippery',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\25_MB01 — Beloved Suppliers.png" id="25_MB01 — Beloved Suppliers" data-flag="@X" onclick="openSidebar('25_MB01 — Beloved Suppliers',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\36_MR01 — Chameleonic Mimic.png" id="36_MR01 — Chameleonic Mimic" data-flag="@X" onclick="openSidebar('36_MR01 — Chameleonic Mimic',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\47_MG01 — Millu, Death Herdmaster.png" id="47_MG01 — Millu, Death Herdmaster" data-flag="@X" onclick="openSidebar('47_MG01 — Millu, Death Herdmaster',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\4_MW02 — Everyone Here!.png" id="4_MW02 — Everyone Here!" data-flag="@X" onclick="openSidebar('4_MW02 — Everyone Here!',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\15_MU02 — Tagon, the Foretold.png" id="15_MU02 — Tagon, the Foretold" data-flag="@X" onclick="openSidebar('15_MU02 — Tagon, the Foretold',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\26_MB02 — Kotose, the Silent Blades.png" id="26_MB02 — Kotose, the Silent Blades" data-flag="@X" onclick="openSidebar('26_MB02 — Kotose, the Silent Blades',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\37_MR02 — Raging Sea Buccaneer.png" id="37_MR02 — Raging Sea Buccaneer" data-flag="@X" onclick="openSidebar('37_MR02 — Raging Sea Buccaneer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\48_MG02 — Lumra, Calamity of the Moss.png" id="48_MG02 — Lumra, Calamity of the Moss" data-flag="@X" onclick="openSidebar('48_MG02 — Lumra, Calamity of the Moss',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\5_MW03 — Pharol, the Horns of Dawn.png" id="5_MW03 — Pharol, the Horns of Dawn" data-flag="@X" onclick="openSidebar('5_MW03 — Pharol, the Horns of Dawn',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\16_MU03 — Pathway Cranes.png" id="16_MU03 — Pathway Cranes" data-flag="@X" onclick="openSidebar('16_MU03 — Pathway Cranes',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\27_MB03 — Seizeehz, the Crawling Fear.png" id="27_MB03 — Seizeehz, the Crawling Fear" data-flag="@X" onclick="openSidebar('27_MB03 — Seizeehz, the Crawling Fear',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\38_MR03 — Morgur, the Endless Body.png" id="38_MR03 — Morgur, the Endless Body" data-flag="@X" onclick="openSidebar('38_MR03 — Morgur, the Endless Body',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\49_MG03 — Overrunner Hero.png" id="49_MG03 — Overrunner Hero" data-flag="@X" onclick="openSidebar('49_MG03 — Overrunner Hero',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\6_RW01 — Stunning Micemage.png" id="6_RW01 — Stunning Micemage" data-flag="@X" onclick="openSidebar('6_RW01 — Stunning Micemage',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\17_RU01 — Otter of the Coast.png" id="17_RU01 — Otter of the Coast" data-flag="@X" onclick="openSidebar('17_RU01 — Otter of the Coast',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\28_RB01 — Minor Pilferer.png" id="28_RB01 — Minor Pilferer" data-flag="@X" onclick="openSidebar('28_RB01 — Minor Pilferer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\39_RR01 — Skilled Pair.png" id="39_RR01 — Skilled Pair" data-flag="@X" onclick="openSidebar('39_RR01 — Skilled Pair',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\50_RG01 — Toad Sage.png" id="50_RG01 — Toad Sage" data-flag="@X" onclick="openSidebar('50_RG01 — Toad Sage',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\7_RW02 — Aspiring Aviator.png" id="7_RW02 — Aspiring Aviator" data-flag="@X" onclick="openSidebar('7_RW02 — Aspiring Aviator',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\18_RU02 — Riverstick Gatherer.png" id="18_RU02 — Riverstick Gatherer" data-flag="@X" onclick="openSidebar('18_RU02 — Riverstick Gatherer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\29_RB02 — Returning Adventurers.png" id="29_RB02 — Returning Adventurers" data-flag="@X" onclick="openSidebar('29_RB02 — Returning Adventurers',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\40_RR02 — Raccoon Conjurer.png" id="40_RR02 — Raccoon Conjurer" data-flag="@X" onclick="openSidebar('40_RR02 — Raccoon Conjurer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\51_RG02 — Evergreen Lookout.png" id="51_RG02 — Evergreen Lookout" data-flag="@X" onclick="openSidebar('51_RG02 — Evergreen Lookout',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\8_RW03 — Burrow Guardian.png" id="8_RW03 — Burrow Guardian" data-flag="@X" onclick="openSidebar('8_RW03 — Burrow Guardian',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\19_RU03 — Disturbing Frogfolk.png" id="19_RU03 — Disturbing Frogfolk" data-flag="@X" onclick="openSidebar('19_RU03 — Disturbing Frogfolk',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\30_RB03 — Midnight Patrol.png" id="30_RB03 — Midnight Patrol" data-flag="@X" onclick="openSidebar('30_RB03 — Midnight Patrol',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\41_RR03 — Inspired Paladin.png" id="41_RR03 — Inspired Paladin" data-flag="@X" onclick="openSidebar('41_RR03 — Inspired Paladin',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\52_RG03 — Diligent Leader.png" id="52_RG03 — Diligent Leader" data-flag="@X" onclick="openSidebar('52_RG03 — Diligent Leader',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\9_RW04 — Pathfinder Hare.png" id="9_RW04 — Pathfinder Hare" data-flag="@X" onclick="openSidebar('9_RW04 — Pathfinder Hare',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\20_RU04 — Nightveil Baron.png" id="20_RU04 — Nightveil Baron" data-flag="@X" onclick="openSidebar('20_RU04 — Nightveil Baron',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\31_RB04 — Mudflat Witch.png" id="31_RB04 — Mudflat Witch" data-flag="@X" onclick="openSidebar('31_RB04 — Mudflat Witch',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\42_RR04 — Robbery Scoundrel.png" id="42_RR04 — Robbery Scoundrel" data-flag="@X" onclick="openSidebar('42_RR04 — Robbery Scoundrel',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\53_RG04 — Nibblers' Squadron.png" id="53_RG04 — Nibblers Squadron" data-flag="@X" onclick="openSidebar('53_RG04 — Nibblers Squadron',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\10_RW05 — Augur of Light.png" id="10_RW05 — Augur of Light" data-flag="@X" onclick="openSidebar('10_RW05 — Augur of Light',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\21_RU05 — Repeling Wings.png" id="21_RU05 — Repeling Wings" data-flag="@X" onclick="openSidebar('21_RU05 — Repeling Wings',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\32_RB05 — Maskwing Bard.png" id="32_RB05 — Maskwing Bard" data-flag="@X" onclick="openSidebar('32_RB05 — Maskwing Bard',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\43_RR05 — Rockface Squire.png" id="43_RR05 — Rockface Squire" data-flag="@X" onclick="openSidebar('43_RR05 — Rockface Squire',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\54_RG05 — Raccoon Dueler.png" id="54_RG05 — Raccoon Dueler" data-flag="@X" onclick="openSidebar('54_RG05 — Raccoon Dueler',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\11_RW06 — Season of Rescues.png" id="11_RW06 — Season of Rescues" data-flag="@X" onclick="openSidebar('11_RW06 — Season of Rescues',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\22_RU06 — Season of Celebrations.png" id="22_RU06 — Season of Celebrations" data-flag="@X" onclick="openSidebar('22_RU06 — Season of Celebrations',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\33_RB06 — Glimpse Death.png" id="33_RB06 — Glimpse Death" data-flag="@X" onclick="openSidebar('33_RB06 — Glimpse Death',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\44_RR06 — The Rockface Council.png" id="44_RR06 — The Rockface Council" data-flag="@X" onclick="openSidebar('44_RR06 — The Rockface Council',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\55_RG06 — Carrot Reaper.png" id="55_RG06 — Carrot Reaper" data-flag="@X" onclick="openSidebar('55_RG06 — Carrot Reaper',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\12_RW07 — Pyrrhic Advise.png" id="12_RW07 — Pyrrhic Advise" data-flag="@X" onclick="openSidebar('12_RW07 — Pyrrhic Advise',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\23_RU07 — The Lilypad Council.png" id="23_RU07 — The Lilypad Council" data-flag="@X" onclick="openSidebar('23_RU07 — The Lilypad Council',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\34_RB07 — The Mudflat Council.png" id="34_RB07 — The Mudflat Council" data-flag="@X" onclick="openSidebar('34_RB07 — The Mudflat Council',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\45_RR07 — Season of Discoveries.png" id="45_RR07 — Season of Discoveries" data-flag="@X" onclick="openSidebar('45_RR07 — Season of Discoveries',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\56_RG07 — The Oakhollow Council.png" id="56_RG07 — The Oakhollow Council" data-flag="@X" onclick="openSidebar('56_RG07 — The Oakhollow Council',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\13_RW08 — The Lupinflower Council.png" id="13_RW08 — The Lupinflower Council" data-flag="@X" onclick="openSidebar('13_RW08 — The Lupinflower Council',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\24_RU08 — Undal's Epiphany.png" id="24_RU08 — Undals Epiphany" data-flag="@X" onclick="openSidebar('24_RU08 — Undals Epiphany',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\35_RB08 — Season of Pandemics.png" id="35_RB08 — Season of Pandemics" data-flag="@X" onclick="openSidebar('35_RB08 — Season of Pandemics',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\46_RR08 — Ral's Lightning.png" id="46_RR08 — Rals Lightning" data-flag="@X" onclick="openSidebar('46_RR08 — Rals Lightning',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\57_RG08 — Season of Battles.png" id="57_RG08 — Season of Battles" data-flag="@X" onclick="openSidebar('57_RG08 — Season of Battles',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\83_Learning from the Master.png" id="83_Learning from the Master" data-flag="@X" onclick="openSidebar('83_Learning from the Master',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\61_RM01 — Risona, Flying Commander.png" id="61_RM01 — Risona, Flying Commander" data-flag="@X" onclick="openSidebar('61_RM01 — Risona, Flying Commander',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\59_MM02 — Tezzeret, Darksteel Rodent.png" id="59_MM02 — Tezzeret, Darksteel Rodent" data-flag="@X" onclick="openSidebar('59_MM02 — Tezzeret, Darksteel Rodent',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\63_RM03 — Moku and Kumo.png" id="63_RM03 — Moku and Kumo" data-flag="@X" onclick="openSidebar('63_RM03 — Moku and Kumo',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\64_RM04 — Lugrant, the Great Dealer.png" id="64_RM04 — Lugrant, the Great Dealer" data-flag="@X" onclick="openSidebar('64_RM04 — Lugrant, the Great Dealer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\65_RM05 — Latel, Careful Gardener.png" id="65_RM05 — Latel, Careful Gardener" data-flag="@X" onclick="openSidebar('65_RM05 — Latel, Careful Gardener',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\87_Pascual, the Bearer.png" id="87_Pascual, the Bearer" data-flag="@X" onclick="openSidebar('87_Pascual, the Bearer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\62_RM02 — Charit, the Bossy One.png" id="62_RM02 — Charit, the Bossy One" data-flag="@X" onclick="openSidebar('62_RM02 — Charit, the Bossy One',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\86_Cathyo, the Patriarch.png" id="86_Cathyo, the Patriarch" data-flag="@X" onclick="openSidebar('86_Cathyo, the Patriarch',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\66_RM06 — Colin, Witchcraft Pupil.png" id="66_RM06 — Colin, Witchcraft Pupil" data-flag="@X" onclick="openSidebar('66_RM06 — Colin, Witchcraft Pupil',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\67_RM07 — Wimsie, the Proud.png" id="67_RM07 — Wimsie, the Proud" data-flag="@X" onclick="openSidebar('67_RM07 — Wimsie, the Proud',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\68_RM08 — Ginny, Acorn Queen.png" id="68_RM08 — Ginny, Acorn Queen" data-flag="@X" onclick="openSidebar('68_RM08 — Ginny, Acorn Queen',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\69_RM09 — Velvet, the Young Heroine.png" id="69_RM09 — Velvet, the Young Heroine" data-flag="@X" onclick="openSidebar('69_RM09 — Velvet, the Young Heroine',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\70_RM10 — Akcro Akcro, the Slippery.png" id="70_RM10 — Akcro Akcro, the Slippery" data-flag="@X" onclick="openSidebar('70_RM10 — Akcro Akcro, the Slippery',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\88_Pogul, the Master.png" id="88_Pogul, the Master" data-flag="@X" onclick="openSidebar('88_Pogul, the Master',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\85_Bymoo, the Waiter.png" id="85_Bymoo, the Waiter" data-flag="@X" onclick="openSidebar('85_Bymoo, the Waiter',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\58_MM01 — Hall Corack.png" id="58_MM01 — Hall Corack" data-flag="@X" onclick="openSidebar('58_MM01 — Hall Corack',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\84_Promised Treasure.png" id="84_Promised Treasure" data-flag="@X" onclick="openSidebar('84_Promised Treasure',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\60_MM03 — Bloomburrow Together.png" id="60_MM03 — Bloomburrow Together" data-flag="@X" onclick="openSidebar('60_MM03 — Bloomburrow Together',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\72_MA01 — Vessel of the Future.png" id="72_MA01 — Vessel of the Future" data-flag="@X" onclick="openSidebar('72_MA01 — Vessel of the Future',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\71_Centei, the Errant.png" id="71_Centei, the Errant" data-flag="@X" onclick="openSidebar('71_Centei, the Errant',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\76_Meadow Village.png" id="76_Meadow Village" data-flag="@X" onclick="openSidebar('76_Meadow Village',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\78_Sewers Village.png" id="78_Sewers Village" data-flag="@X" onclick="openSidebar('78_Sewers Village',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\79_Shadowcloaked Village.png" id="79_Shadowcloaked Village" data-flag="@X" onclick="openSidebar('79_Shadowcloaked Village',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\77_Praire Village.png" id="77_Praire Village" data-flag="@X" onclick="openSidebar('77_Praire Village',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\81_Tranquil Village.png" id="81_Tranquil Village" data-flag="@X" onclick="openSidebar('81_Tranquil Village',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\74_Cave Village.png" id="74_Cave Village" data-flag="@X" onclick="openSidebar('74_Cave Village',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\75_Dam Village.png" id="75_Dam Village" data-flag="@X" onclick="openSidebar('75_Dam Village',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\82_Underforest Village.png" id="82_Underforest Village" data-flag="@X" onclick="openSidebar('82_Underforest Village',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\80_Tile Village.png" id="80_Tile Village" data-flag="@X" onclick="openSidebar('80_Tile Village',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\73_Everyone's Village.png" id="73_Everyones Village" data-flag="@X" onclick="openSidebar('73_Everyones Village',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="masterpiece" class="anchor"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\3_Augur of Light.png" id="3_Augur of Light" data-flag="@X" onclick="openSidebar('3_Augur of Light',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\4_Aven Courier.png" id="4_Aven Courier" data-flag="@X" onclick="openSidebar('4_Aven Courier',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\5_Bribery.png" id="5_Bribery" data-flag="@X" onclick="openSidebar('5_Bribery',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\6_Disturbing Frogfolk.png" id="6_Disturbing Frogfolk" data-flag="@X" onclick="openSidebar('6_Disturbing Frogfolk',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\7_Otter Foolishness.png" id="7_Otter Foolishness" data-flag="@X" onclick="openSidebar('7_Otter Foolishness',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\8_Riverstick Gatherer.png" id="8_Riverstick Gatherer" data-flag="@X" onclick="openSidebar('8_Riverstick Gatherer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\9_Slippery Bandit.png" id="9_Slippery Bandit" data-flag="@X" onclick="openSidebar('9_Slippery Bandit',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\10_Evergreen Lookout.png" id="10_Evergreen Lookout" data-flag="@X" onclick="openSidebar('10_Evergreen Lookout',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\11_Overrunner Hero.png" id="11_Overrunner Hero" data-flag="@X" onclick="openSidebar('11_Overrunner Hero',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\12_Akcro Akcro, the Slippery.png" id="12_Akcro Akcro, the Slippery" data-flag="@X" onclick="openSidebar('12_Akcro Akcro, the Slippery',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\13_Portent Wayfarer.png" id="13_Portent Wayfarer" data-flag="@X" onclick="openSidebar('13_Portent Wayfarer',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\14_Ripplemind Acolyte.png" id="14_Ripplemind Acolyte" data-flag="@X" onclick="openSidebar('14_Ripplemind Acolyte',false)"></div>
+			<div class="container"><img alt="/sets\BTL-files\img\15_Velvet, the Young Hero.png" id="15_Velvet, the Young Hero" data-flag="@X" onclick="openSidebar('15_Velvet, the Young Hero',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
