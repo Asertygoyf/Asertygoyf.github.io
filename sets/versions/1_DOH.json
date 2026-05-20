@@ -1,7 +1,7 @@
 ﻿{
     "name": "The Simpsons Set",
     "formats": "",
-    "trimmed": "y",
+    "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
     "cards": [
@@ -1643,6 +1643,5 @@
             "artist": "The Simpsons Show",
             "notes": ""
         }
-    ],
-    "version": 1
+    ]
 }

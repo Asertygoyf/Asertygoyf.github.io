@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="/sets/DOH-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>DOH visual preview</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('/img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('/img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('/img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('/img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/DOH-files/logo.png" />
+	<img class="preload-hidden" src="/sets/BLT-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DOH-files/icon.png" />
+		<img class="preload-hidden" src="/sets/FOL-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="BLT"><img src="/sets/BLT-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="DOH"><img src="/sets/DOH-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="/img/dot.png"></img></div>
+		<div class="icon"><a href="FOL"><img src="/sets/FOL-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="/sets/DOH-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="/sets\DOH-files\img\1_CW01 — Novice Inspector.png" id="1_CW01 — Novice Inspector" data-flag="@X" onclick="openSidebar('1_CW01 — Novice Inspector',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\14_CU01 — Sparking Logo.png" id="14_CU01 — Sparking Logo" data-flag="@X" onclick="openSidebar('14_CU01 — Sparking Logo',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\27_CB01 — Angel of Death.png" id="27_CB01 — Angel of Death" data-flag="@X" onclick="openSidebar('27_CB01 — Angel of Death',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\40_CR01 — Racer Kids.png" id="40_CR01 — Racer Kids" data-flag="@X" onclick="openSidebar('40_CR01 — Racer Kids',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\53_CG01 — Whacking Day.png" id="53_CG01 — Whacking Day" data-flag="@X" onclick="openSidebar('53_CG01 — Whacking Day',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\2_CW02 — Church Pianist.png" id="2_CW02 — Church Pianist" data-flag="@X" onclick="openSidebar('2_CW02 — Church Pianist',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\15_CU02 — Jazz Man.png" id="15_CU02 — Jazz Man" data-flag="@X" onclick="openSidebar('15_CU02 — Jazz Man',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\28_CB02 — Rat Colony.png" id="28_CB02 — Rat Colony" data-flag="@X" onclick="openSidebar('28_CB02 — Rat Colony',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\41_CR02 — Veteran Soldier.png" id="41_CR02 — Veteran Soldier" data-flag="@X" onclick="openSidebar('41_CR02 — Veteran Soldier',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\54_CG02 — Familiar Hedge.png" id="54_CG02 — Familiar Hedge" data-flag="@X" onclick="openSidebar('54_CG02 — Familiar Hedge',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\3_CW03 — Happiest Man in Springfield.png" id="3_CW03 — Happiest Man in Springfield" data-flag="@X" onclick="openSidebar('3_CW03 — Happiest Man in Springfield',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\16_CU03 — Conquering Dolphins.png" id="16_CU03 — Conquering Dolphins" data-flag="@X" onclick="openSidebar('16_CU03 — Conquering Dolphins',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\29_CB03 — Cult Leader.png" id="29_CB03 — Cult Leader" data-flag="@X" onclick="openSidebar('29_CB03 — Cult Leader',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\42_CR03 — Classroom Hamster.png" id="42_CR03 — Classroom Hamster" data-flag="@X" onclick="openSidebar('42_CR03 — Classroom Hamster',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\55_CG03 — Intimidating Horse.png" id="55_CG03 — Intimidating Horse" data-flag="@X" onclick="openSidebar('55_CG03 — Intimidating Horse',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\4_CW04 — Offering White Dragon.png" id="4_CW04 — Offering White Dragon" data-flag="@X" onclick="openSidebar('4_CW04 — Offering White Dragon',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\17_CU04 — Clever Cat Burglar.png" id="17_CU04 — Clever Cat Burglar" data-flag="@X" onclick="openSidebar('17_CU04 — Clever Cat Burglar',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\30_CB04 — Road Hitchhiker.png" id="30_CB04 — Road Hitchhiker" data-flag="@X" onclick="openSidebar('30_CB04 — Road Hitchhiker',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\43_CR04 — Posthumous Professor.png" id="43_CR04 — Posthumous Professor" data-flag="@X" onclick="openSidebar('43_CR04 — Posthumous Professor',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\56_CG04 — Doughnut Robber.png" id="56_CG04 — Doughnut Robber" data-flag="@X" onclick="openSidebar('56_CG04 — Doughnut Robber',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\5_CW05 — Religious Singer.png" id="5_CW05 — Religious Singer" data-flag="@X" onclick="openSidebar('5_CW05 — Religious Singer',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\18_CU05 — Nuclear Physics Professor.png" id="18_CU05 — Nuclear Physics Professor" data-flag="@X" onclick="openSidebar('18_CU05 — Nuclear Physics Professor',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\31_CB05 — Town Zombies.png" id="31_CB05 — Town Zombies" data-flag="@X" onclick="openSidebar('31_CB05 — Town Zombies',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\44_CR05 — Namesharing Customers.png" id="44_CR05 — Namesharing Customers" data-flag="@X" onclick="openSidebar('44_CR05 — Namesharing Customers',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\57_CG05 — Pool Lion.png" id="57_CG05 — Pool Lion" data-flag="@X" onclick="openSidebar('57_CG05 — Pool Lion',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\6_CW06 — Sick Student.png" id="6_CW06 — Sick Student" data-flag="@X" onclick="openSidebar('6_CW06 — Sick Student',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\19_CU06 — Giant Catfish.png" id="19_CU06 — Giant Catfish" data-flag="@X" onclick="openSidebar('19_CU06 — Giant Catfish',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\32_CB06 — Burns' Hounds.png" id="32_CB06 — Burns Hounds" data-flag="@X" onclick="openSidebar('32_CB06 — Burns Hounds',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\45_CR06 — Country Singer.png" id="45_CR06 — Country Singer" data-flag="@X" onclick="openSidebar('45_CR06 — Country Singer',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\58_CG06 — Screaming Caterpillar.png" id="58_CG06 — Screaming Caterpillar" data-flag="@X" onclick="openSidebar('58_CG06 — Screaming Caterpillar',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\7_CW07 — Lollypop Dancers.png" id="7_CW07 — Lollypop Dancers" data-flag="@X" onclick="openSidebar('7_CW07 — Lollypop Dancers',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\20_CU07 — Crushing Squid.png" id="20_CU07 — Crushing Squid" data-flag="@X" onclick="openSidebar('20_CU07 — Crushing Squid',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\33_CB07 — Krusty Burglar.png" id="33_CB07 — Krusty Burglar" data-flag="@X" onclick="openSidebar('33_CB07 — Krusty Burglar',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\46_CR07 — Gliding Lizards.png" id="46_CR07 — Gliding Lizards" data-flag="@X" onclick="openSidebar('46_CR07 — Gliding Lizards',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\59_CG07 — Springfield's Veterinarian.png" id="59_CG07 — Springfields Veterinarian" data-flag="@X" onclick="openSidebar('59_CG07 — Springfields Veterinarian',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\8_CW08 — Space Coyote.png" id="8_CW08 — Space Coyote" data-flag="@X" onclick="openSidebar('8_CW08 — Space Coyote',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\21_CU08 — Burns' Flying Monkeys.png" id="21_CU08 — Burns Flying Monkeys" data-flag="@X" onclick="openSidebar('21_CU08 — Burns Flying Monkeys',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\34_CB08 — Hopeful Rope.png" id="34_CB08 — Hopeful Rope" data-flag="@X" onclick="openSidebar('34_CB08 — Hopeful Rope',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\47_CR08 — Gang Leader.png" id="47_CR08 — Gang Leader" data-flag="@X" onclick="openSidebar('47_CR08 — Gang Leader',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\60_CG08 — Bart's Elephant.png" id="60_CG08 — Barts Elephant" data-flag="@X" onclick="openSidebar('60_CG08 — Barts Elephant',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\9_CW09 — Say the Line.png" id="9_CW09 — Say the Line" data-flag="@X" onclick="openSidebar('9_CW09 — Say the Line',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\22_CU09 — Bart's Trial.png" id="22_CU09 — Barts Trial" data-flag="@X" onclick="openSidebar('22_CU09 — Barts Trial',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\35_CB09 — Good Bye New York.png" id="35_CB09 — Good Bye New York" data-flag="@X" onclick="openSidebar('35_CB09 — Good Bye New York',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\48_CR09 — Strangle.png" id="48_CR09 — Strangle" data-flag="@X" onclick="openSidebar('48_CR09 — Strangle',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\61_CG09 — Cute Pick.png" id="61_CG09 — Cute Pick" data-flag="@X" onclick="openSidebar('61_CG09 — Cute Pick',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\10_CW10 — Bunk with Me Tonight.png" id="10_CW10 — Bunk with Me Tonight" data-flag="@X" onclick="openSidebar('10_CW10 — Bunk with Me Tonight',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\23_CU10 — Salad Song.png" id="23_CU10 — Salad Song" data-flag="@X" onclick="openSidebar('23_CU10 — Salad Song',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\36_CB10 — Some Enchanted Evening.png" id="36_CB10 — Some Enchanted Evening" data-flag="@X" onclick="openSidebar('36_CB10 — Some Enchanted Evening',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\49_CR10 — We Do!.png" id="49_CR10 — We Do!" data-flag="@X" onclick="openSidebar('49_CR10 — We Do!',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\62_CG10 — All Hail King Homer.png" id="62_CG10 — All Hail King Homer" data-flag="@X" onclick="openSidebar('62_CG10 — All Hail King Homer',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\11_CW11 — Sunshine Ray.png" id="11_CW11 — Sunshine Ray" data-flag="@X" onclick="openSidebar('11_CW11 — Sunshine Ray',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\24_CU11 — Mental Delusions.png" id="24_CU11 — Mental Delusions" data-flag="@X" onclick="openSidebar('24_CU11 — Mental Delusions',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\37_CB11 — Report the Crime.png" id="37_CB11 — Report the Crime" data-flag="@X" onclick="openSidebar('37_CB11 — Report the Crime',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\50_CR11 — Fire in the Office.png" id="50_CR11 — Fire in the Office" data-flag="@X" onclick="openSidebar('50_CR11 — Fire in the Office',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\63_CG11 — Old Man Yells at Cloud.png" id="63_CG11 — Old Man Yells at Cloud" data-flag="@X" onclick="openSidebar('63_CG11 — Old Man Yells at Cloud',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\12_CW12 — Kick Out Again.png" id="12_CW12 — Kick Out Again" data-flag="@X" onclick="openSidebar('12_CW12 — Kick Out Again',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\25_CU12 — Happy Birthday.png" id="25_CU12 — Happy Birthday" data-flag="@X" onclick="openSidebar('25_CU12 — Happy Birthday',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\38_CB12 — Weeeeeh!.png" id="38_CB12 — Weeeeeh!" data-flag="@X" onclick="openSidebar('38_CB12 — Weeeeeh!',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\51_CR12 — Through the Window.png" id="51_CR12 — Through the Window" data-flag="@X" onclick="openSidebar('51_CR12 — Through the Window',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\64_CG12 — Peach Tree Song.png" id="64_CG12 — Peach Tree Song" data-flag="@X" onclick="openSidebar('64_CG12 — Peach Tree Song',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\13_CW13 — Capture the Moment.png" id="13_CW13 — Capture the Moment" data-flag="@X" onclick="openSidebar('13_CW13 — Capture the Moment',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\26_CU13 — Totally Wrong Path.png" id="26_CU13 — Totally Wrong Path" data-flag="@X" onclick="openSidebar('26_CU13 — Totally Wrong Path',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\39_CB13 — Fall In Your Own Grave.png" id="39_CB13 — Fall In Your Own Grave" data-flag="@X" onclick="openSidebar('39_CB13 — Fall In Your Own Grave',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\52_RR13 — Flaming Moe's.png" id="52_RR13 — Flaming Moes" data-flag="@X" onclick="openSidebar('52_RR13 — Flaming Moes',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\65_CG13 — Chair Throw.png" id="65_CG13 — Chair Throw" data-flag="@X" onclick="openSidebar('65_CG13 — Chair Throw',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="gold" class="anchor"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\66_CH01 — Substitute Teacher.png" id="66_CH01 — Substitute Teacher" data-flag="@X" onclick="openSidebar('66_CH01 — Substitute Teacher',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\67_CH02 — Nevermore Raven.png" id="67_CH02 — Nevermore Raven" data-flag="@X" onclick="openSidebar('67_CH02 — Nevermore Raven',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\68_CH03 — Local Yakuza.png" id="68_CH03 — Local Yakuza" data-flag="@X" onclick="openSidebar('68_CH03 — Local Yakuza',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\69_CH04 — Bus Gremlin.png" id="69_CH04 — Bus Gremlin" data-flag="@X" onclick="openSidebar('69_CH04 — Bus Gremlin',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\70_CH05 — Dancing Crazy Old Man.png" id="70_CH05 — Dancing Crazy Old Man" data-flag="@X" onclick="openSidebar('70_CH05 — Dancing Crazy Old Man',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\71_CH06 — Faith Healer.png" id="71_CH06 — Faith Healer" data-flag="@X" onclick="openSidebar('71_CH06 — Faith Healer',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\72_CH07 — Psychiatric Dancer.png" id="72_CH07 — Psychiatric Dancer" data-flag="@X" onclick="openSidebar('72_CH07 — Psychiatric Dancer',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\73_CH08 — Locker Possum.png" id="73_CH08 — Locker Possum" data-flag="@X" onclick="openSidebar('73_CH08 — Locker Possum',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\74_CH09 — Yvan Eht Nioj.png" id="74_CH09 — Yvan Eht Nioj" data-flag="@X" onclick="openSidebar('74_CH09 — Yvan Eht Nioj',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\75_CH10 — Smart Family Members.png" id="75_CH10 — Smart Family Members" data-flag="@X" onclick="openSidebar('75_CH10 — Smart Family Members',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+<div id="colorless" class="anchor"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\76_CC01 — Grammar-Correcting Robot.png" id="76_CC01 — Grammar-Correcting Robot" data-flag="@X" onclick="openSidebar('76_CC01 — Grammar-Correcting Robot',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\77_CC02 — Substitute Worker.png" id="77_CC02 — Substitute Worker" data-flag="@X" onclick="openSidebar('77_CC02 — Substitute Worker',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\78_CC03 — Car Wreck.png" id="78_CC03 — Car Wreck" data-flag="@X" onclick="openSidebar('78_CC03 — Car Wreck',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\79_CC05 — Lie Detector Machine.png" id="79_CC05 — Lie Detector Machine" data-flag="@X" onclick="openSidebar('79_CC05 — Lie Detector Machine',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\80_CC06 — Founder Statue.png" id="80_CC06 — Founder Statue" data-flag="@X" onclick="openSidebar('80_CC06 — Founder Statue',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\90_Springfield Town Hall.png" id="90_Springfield Town Hall" data-flag="@X" onclick="openSidebar('90_Springfield Town Hall',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\81_Burns' Manor.png" id="81_Burns Manor" data-flag="@X" onclick="openSidebar('81_Burns Manor',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\89_Springfield State Prison.png" id="89_Springfield State Prison" data-flag="@X" onclick="openSidebar('89_Springfield State Prison',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\84_Kwik-E-Mart.png" id="84_Kwik-E-Mart" data-flag="@X" onclick="openSidebar('84_Kwik-E-Mart',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\91_Springfield Town Square.png" id="91_Springfield Town Square" data-flag="@X" onclick="openSidebar('91_Springfield Town Square',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\83_First Church of Springfield.png" id="83_First Church of Springfield" data-flag="@X" onclick="openSidebar('83_First Church of Springfield',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\87_Springfield Mall.png" id="87_Springfield Mall" data-flag="@X" onclick="openSidebar('87_Springfield Mall',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\88_Springfield Retirement Castle.png" id="88_Springfield Retirement Castle" data-flag="@X" onclick="openSidebar('88_Springfield Retirement Castle',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\86_Springfield Elementary School.png" id="86_Springfield Elementary School" data-flag="@X" onclick="openSidebar('86_Springfield Elementary School',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\85_Moe's Tavern.png" id="85_Moes Tavern" data-flag="@X" onclick="openSidebar('85_Moes Tavern',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/sets\DOH-files\img\82_CR04 — Springfield Panorama.png" id="82_CR04 — Springfield Panorama" data-flag="@X" onclick="openSidebar('82_CR04 — Springfield Panorama',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		console.log(num);
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		if (num == 'sidebar_img')
+		{
+			const rotated_img = document.getElementById('sidebar_h_img');
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal && rotated_img.style.display == 'none')
+			{
+				rotated_img.style.display = "block";
+				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+			}
+			else
+			{
+				rotated_img.style.display = "none";
+				sidebar_img.style.filter = "";
+			}
+		}
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL('search', window.location.origin);
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL('card', window.location.origin);
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url;
+			}
+	</script>
+</body>
+</html>
