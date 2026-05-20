@@ -1,0 +1,1100 @@
+[CustomCards]
+	[
+		{
+			"name": "Substitute Teacher",
+			"rarity": "common",
+			"mana_cost": "{3}{W/U}",
+			"type": "Creature — Human Advisor Bard",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/74_Substitute Teacher.png"
+			}
+		},
+		{
+			"name": "Nevermore Raven",
+			"rarity": "common",
+			"mana_cost": "{3}{U/B}",
+			"type": "Creature — Bird Horror",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/71_Nevermore Raven.png"
+			}
+		},
+		{
+			"name": "Local Yakuza",
+			"rarity": "common",
+			"mana_cost": "{2}{B/R}",
+			"type": "Creature — Human Assassin",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/69_Local Yakuza.png"
+			}
+		},
+		{
+			"name": "Bus Gremlin",
+			"rarity": "common",
+			"mana_cost": "{3}{R/G}",
+			"type": "Creature — Gremlin Villain",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/66_Bus Gremlin.png"
+			}
+		},
+		{
+			"name": "Dancing Crazy Old Man",
+			"rarity": "common",
+			"mana_cost": "{1}{G/W}",
+			"type": "Creature — Elder Human Bard",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/67_Dancing Crazy Old Man.png"
+			}
+		},
+		{
+			"name": "Faith Healer",
+			"rarity": "common",
+			"mana_cost": "{2}{W/B}",
+			"type": "Creature — Human Bard Cleric",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/68_Faith Healer.png"
+			}
+		},
+		{
+			"name": "Locker Possum",
+			"rarity": "common",
+			"mana_cost": "{1}{B/G}",
+			"type": "Creature — Possum",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/70_Locker Possum.png"
+			}
+		},
+		{
+			"name": "Yvan Eht Nioj",
+			"rarity": "common",
+			"mana_cost": "{R/W}",
+			"type": "Enchantment — Song",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/75_Yvan Eht Nioj.png"
+			}
+		},
+		{
+			"name": "Church Pianist",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Elder Human Bard",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/3_Church Pianist.png"
+			}
+		},
+		{
+			"name": "Sick Student",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Child",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/11_Sick Student.png"
+			}
+		},
+		{
+			"name": "Novice Inspector",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Detective",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/7_Novice Inspector.png"
+			}
+		},
+		{
+			"name": "Offering White Dragon",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Dragon Advisor",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/8_Offering White Dragon.png"
+			}
+		},
+		{
+			"name": "Space Coyote",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Spirit Coyote",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/12_Space Coyote.png"
+			}
+		},
+		{
+			"name": "Lollypop Dancers",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Illusion Bard",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/6_Lollypop Dancers.png"
+			}
+		},
+		{
+			"name": "Happiest Man in Springfield",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/4_Happiest Man in Springfield.png"
+			}
+		},
+		{
+			"name": "Religious Singer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/9_Religious Singer.png"
+			}
+		},
+		{
+			"name": "Capture the Moment",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/2_Capture the Moment.png"
+			}
+		},
+		{
+			"name": "Kick Out Again",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/5_Kick Out Again.png"
+			}
+		},
+		{
+			"name": "Sunshine Ray",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/13_Sunshine Ray.png"
+			}
+		},
+		{
+			"name": "Sparking Logo",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Spirit",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/25_Sparking Logo.png"
+			}
+		},
+		{
+			"name": "Conquering Dolphins",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Whale Soldier",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/17_Conquering Dolphins.png"
+			}
+		},
+		{
+			"name": "Burns' Flying Monkeys",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Monkey Minion",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/15_Burns' Flying Monkeys.png"
+			}
+		},
+		{
+			"name": "Giant Catfish",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Fish",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/19_Giant Catfish.png"
+			}
+		},
+		{
+			"name": "Totally Wrong Path",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/26_Totally Wrong Path.png"
+			}
+		},
+		{
+			"name": "Salad Song",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Song",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/24_Salad Song.png"
+			}
+		},
+		{
+			"name": "Bart's Trial",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/14_Bart's Trial.png"
+			}
+		},
+		{
+			"name": "Happy Birthday",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Song",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/20_Happy Birthday.png"
+			}
+		},
+		{
+			"name": "Mental Delusions",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/22_Mental Delusions.png"
+			}
+		},
+		{
+			"name": "Bunk with Me Tonight",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Song",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/1_Bunk with Me Tonight.png"
+			}
+		},
+		{
+			"name": "Clever Cat Burglar",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elder Human Rogue",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/16_Clever Cat Burglar.png"
+			}
+		},
+		{
+			"name": "Nuclear Physics Professor",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Elder Human Scientist",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/23_Nuclear Physics Professor.png"
+			}
+		},
+		{
+			"name": "Jazz Man",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Song",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/21_Jazz Man.png"
+			}
+		},
+		{
+			"name": "Angel of Death",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Angel Assassin",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/27_Angel of Death.png"
+			}
+		},
+		{
+			"name": "Report the Crime",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/35_Report the Crime.png"
+			}
+		},
+		{
+			"name": "Fall In Your Own Grave",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/30_Fall In Your Own Grave.png"
+			}
+		},
+		{
+			"name": "Rat Colony",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Rat",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/34_Rat Colony.png"
+			}
+		},
+		{
+			"name": "Krusty Burglar",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/33_Krusty Burglar.png"
+			}
+		},
+		{
+			"name": "Town Zombies",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Citizen",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/38_Town Zombies.png"
+			}
+		},
+		{
+			"name": "Cult Leader",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Rogue Pilot",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/29_Cult Leader.png"
+			}
+		},
+		{
+			"name": "First Church of Springfield",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/82_First Church of Springfield.png"
+			}
+		},
+		{
+			"name": "Moe's Tavern",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/84_Moe's Tavern.png"
+			}
+		},
+		{
+			"name": "Springfield Town Hall",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/90_Springfield Town Hall.png"
+			}
+		},
+		{
+			"name": "Springfield Elementary School",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/85_Springfield Elementary School.png"
+			}
+		},
+		{
+			"name": "Kwik-E-Mart",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/83_Kwik-E-Mart.png"
+			}
+		},
+		{
+			"name": "Springfield State Prison",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/89_Springfield State Prison.png"
+			}
+		},
+		{
+			"name": "Springfield Retirement Castle",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/88_Springfield Retirement Castle.png"
+			}
+		},
+		{
+			"name": "Springfield Town Square",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/91_Springfield Town Square.png"
+			}
+		},
+		{
+			"name": "Burns' Manor",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/81_Burns' Manor.png"
+			}
+		},
+		{
+			"name": "Road Hitchhiker",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/36_Road Hitchhiker.png"
+			}
+		},
+		{
+			"name": "Weeeeeh!",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment — Song",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/39_Weeeeeh!.png"
+			}
+		},
+		{
+			"name": "Some Enchanted Evening",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/37_Some Enchanted Evening.png"
+			}
+		},
+		{
+			"name": "Say the Line",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/10_Say the Line.png"
+			}
+		},
+		{
+			"name": "Hopeful Rope",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/32_Hopeful Rope.png"
+			}
+		},
+		{
+			"name": "Springfield Mall",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/86_Springfield Mall.png"
+			}
+		},
+		{
+			"name": "Burns' Hounds",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Dog",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/28_Burns' Hounds.png"
+			}
+		},
+		{
+			"name": "Racer Kids",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Child",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/48_Racer Kids.png"
+			}
+		},
+		{
+			"name": "Gliding Lizards",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Lizard",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/45_Gliding Lizards.png"
+			}
+		},
+		{
+			"name": "Gang Leader",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Pilot Rogue",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/44_Gang Leader.png"
+			}
+		},
+		{
+			"name": "Classroom Hamster",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Hamster",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/40_Classroom Hamster.png"
+			}
+		},
+		{
+			"name": "Posthumous Professor",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/47_Posthumous Professor.png"
+			}
+		},
+		{
+			"name": "Psychiatric Dancer",
+			"rarity": "common",
+			"mana_cost": "{1}{U/R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/72_Psychiatric Dancer.png"
+			}
+		},
+		{
+			"name": "Strangle",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/49_Strangle.png"
+			}
+		},
+		{
+			"name": "Flaming Moe's",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Enchantment — Song",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/43_Flaming Moe's.png"
+			}
+		},
+		{
+			"name": "We Do!",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Song",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/52_We Do!.png"
+			}
+		},
+		{
+			"name": "Through the Window",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/50_Through the Window.png"
+			}
+		},
+		{
+			"name": "Veteran Soldier",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/51_Veteran Soldier.png"
+			}
+		},
+		{
+			"name": "Namesharing Customers",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Guest",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/46_Namesharing Customers.png"
+			}
+		},
+		{
+			"name": "Springfield Panorama",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Springfield",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/87_Springfield Panorama.png"
+			}
+		},
+		{
+			"name": "Country Singer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/41_Country Singer.png"
+			}
+		},
+		{
+			"name": "Fire in the Office",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/42_Fire in the Office.png"
+			}
+		},
+		{
+			"name": "Chair Throw",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/55_Chair Throw.png"
+			}
+		},
+		{
+			"name": "Peach Tree Song",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Song",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/61_Peach Tree Song.png"
+			}
+		},
+		{
+			"name": "Familiar Hedge",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/58_Familiar Hedge.png"
+			}
+		},
+		{
+			"name": "Old Man Yells at Cloud",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/60_Old Man Yells at Cloud.png"
+			}
+		},
+		{
+			"name": "All Hail King Homer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/53_All Hail King Homer.png"
+			}
+		},
+		{
+			"name": "Doughnut Robber",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Monkey Rogue",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/57_Doughnut Robber.png"
+			}
+		},
+		{
+			"name": "Screaming Caterpillar",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/63_Screaming Caterpillar.png"
+			}
+		},
+		{
+			"name": "Bart's Elephant",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Elephant",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/54_Bart's Elephant.png"
+			}
+		},
+		{
+			"name": "Cute Pick",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/56_Cute Pick.png"
+			}
+		},
+		{
+			"name": "Intimidating Horse",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Horse",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/59_Intimidating Horse.png"
+			}
+		},
+		{
+			"name": "Smart Family Members",
+			"rarity": "common",
+			"mana_cost": "{3}{G/U}",
+			"type": "Creature — Human",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/73_Smart Family Members.png"
+			}
+		},
+		{
+			"name": "Whacking Day",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/65_Whacking Day.png"
+			}
+		},
+		{
+			"name": "Pool Lion",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Cat",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/62_Pool Lion.png"
+			}
+		},
+		{
+			"name": "Springfield's Veterinarian",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Human Doctor",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/64_Springfield's Veterinarian.png"
+			}
+		},
+		{
+			"name": "Grammar-Correcting Robot",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/78_Grammar-Correcting Robot.png"
+			}
+		},
+		{
+			"name": "Substitute Worker",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Scarecrow",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/80_Substitute Worker.png"
+			}
+		},
+		{
+			"name": "Founder Statue",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/77_Founder Statue.png"
+			}
+		},
+		{
+			"name": "Lie Detector Machine",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/79_Lie Detector Machine.png"
+			}
+		},
+		{
+			"name": "Crushing Squid",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Squid",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/18_Crushing Squid.png"
+			}
+		},
+		{
+			"name": "Good Bye New York",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/31_Good Bye New York.png"
+			}
+		},
+		{
+			"name": "Car Wreck",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Asertygoyf.github.io/sets/DOH-files/img/76_Car Wreck.png"
+			}
+		},
+	]
+
+[rare(1)]
+[uncommon(4)]
+[common(7)]
+	8 Substitute Teacher
+	8 Nevermore Raven
+	8 Local Yakuza
+	8 Bus Gremlin
+	8 Dancing Crazy Old Man
+	8 Faith Healer
+	8 Locker Possum
+	8 Yvan Eht Nioj
+	8 Church Pianist
+	8 Sick Student
+	8 Novice Inspector
+	8 Offering White Dragon
+	8 Space Coyote
+	8 Lollypop Dancers
+	8 Happiest Man in Springfield
+	8 Religious Singer
+	8 Capture the Moment
+	8 Kick Out Again
+	8 Sunshine Ray
+	8 Sparking Logo
+	8 Conquering Dolphins
+	8 Burns' Flying Monkeys
+	8 Giant Catfish
+	8 Totally Wrong Path
+	8 Salad Song
+	8 Bart's Trial
+	8 Happy Birthday
+	8 Mental Delusions
+	8 Bunk with Me Tonight
+	8 Clever Cat Burglar
+	8 Nuclear Physics Professor
+	8 Jazz Man
+	8 Angel of Death
+	8 Report the Crime
+	8 Fall In Your Own Grave
+	8 Rat Colony
+	8 Krusty Burglar
+	8 Town Zombies
+	8 Cult Leader
+	8 First Church of Springfield
+	8 Moe's Tavern
+	8 Springfield Town Hall
+	8 Springfield Elementary School
+	8 Kwik-E-Mart
+	8 Springfield State Prison
+	8 Springfield Retirement Castle
+	8 Springfield Town Square
+	8 Burns' Manor
+	8 Road Hitchhiker
+	8 Weeeeeh!
+	8 Some Enchanted Evening
+	8 Say the Line
+	8 Hopeful Rope
+	8 Springfield Mall
+	8 Burns' Hounds
+	8 Racer Kids
+	8 Gliding Lizards
+	8 Gang Leader
+	8 Classroom Hamster
+	8 Posthumous Professor
+	8 Psychiatric Dancer
+	8 Strangle
+	8 Flaming Moe's
+	8 We Do!
+	8 Through the Window
+	8 Veteran Soldier
+	8 Namesharing Customers
+	8 Springfield Panorama
+	8 Country Singer
+	8 Fire in the Office
+	8 Chair Throw
+	8 Peach Tree Song
+	8 Familiar Hedge
+	8 Old Man Yells at Cloud
+	8 All Hail King Homer
+	8 Doughnut Robber
+	8 Screaming Caterpillar
+	8 Bart's Elephant
+	8 Cute Pick
+	8 Intimidating Horse
+	8 Smart Family Members
+	8 Whacking Day
+	8 Pool Lion
+	8 Springfield's Veterinarian
+	8 Grammar-Correcting Robot
+	8 Substitute Worker
+	8 Founder Statue
+	8 Lie Detector Machine
+	8 Crushing Squid
+	8 Good Bye New York
+	8 Car Wreck
+[wildcard(2)]
+	6 Substitute Teacher
+	6 Nevermore Raven
+	6 Local Yakuza
+	6 Bus Gremlin
+	6 Dancing Crazy Old Man
+	6 Faith Healer
+	6 Locker Possum
+	6 Yvan Eht Nioj
+	6 Church Pianist
+	6 Sick Student
+	6 Novice Inspector
+	6 Offering White Dragon
+	6 Space Coyote
+	6 Lollypop Dancers
+	6 Happiest Man in Springfield
+	6 Religious Singer
+	6 Capture the Moment
+	6 Kick Out Again
+	6 Sunshine Ray
+	6 Sparking Logo
+	6 Conquering Dolphins
+	6 Burns' Flying Monkeys
+	6 Giant Catfish
+	6 Totally Wrong Path
+	6 Salad Song
+	6 Bart's Trial
+	6 Happy Birthday
+	6 Mental Delusions
+	6 Bunk with Me Tonight
+	6 Clever Cat Burglar
+	6 Nuclear Physics Professor
+	6 Jazz Man
+	6 Angel of Death
+	6 Report the Crime
+	6 Fall In Your Own Grave
+	6 Rat Colony
+	6 Krusty Burglar
+	6 Town Zombies
+	6 Cult Leader
+	6 First Church of Springfield
+	6 Moe's Tavern
+	6 Springfield Town Hall
+	6 Springfield Elementary School
+	6 Kwik-E-Mart
+	6 Springfield State Prison
+	6 Springfield Retirement Castle
+	6 Springfield Town Square
+	6 Burns' Manor
+	6 Road Hitchhiker
+	6 Weeeeeh!
+	6 Some Enchanted Evening
+	6 Say the Line
+	6 Hopeful Rope
+	6 Springfield Mall
+	6 Burns' Hounds
+	6 Racer Kids
+	6 Gliding Lizards
+	6 Gang Leader
+	6 Classroom Hamster
+	6 Posthumous Professor
+	6 Psychiatric Dancer
+	6 Strangle
+	6 Flaming Moe's
+	6 We Do!
+	6 Through the Window
+	6 Veteran Soldier
+	6 Namesharing Customers
+	6 Springfield Panorama
+	6 Country Singer
+	6 Fire in the Office
+	6 Chair Throw
+	6 Peach Tree Song
+	6 Familiar Hedge
+	6 Old Man Yells at Cloud
+	6 All Hail King Homer
+	6 Doughnut Robber
+	6 Screaming Caterpillar
+	6 Bart's Elephant
+	6 Cute Pick
+	6 Intimidating Horse
+	6 Smart Family Members
+	6 Whacking Day
+	6 Pool Lion
+	6 Springfield's Veterinarian
+	6 Grammar-Correcting Robot
+	6 Substitute Worker
+	6 Founder Statue
+	6 Lie Detector Machine
+	6 Crushing Squid
+	6 Good Bye New York
+	6 Car Wreck
