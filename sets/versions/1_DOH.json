@@ -150,11 +150,11 @@
             "notes": "\u201cThis Party is happenin', it's not mirage, so sing it again, yvan eht nioj!\u201d\n\u2014NSYNC"
         },
         {
-            "card_name": "CW02 \u2014 Church Pianist",
+            "card_name": "Church Pianist",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Elder Human Bard",
-            "number": 2,
+            "number": 3,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Whenever this creature attacks, you gain 1 life.\nWhenever you gain life, target creature you control gets +1/+0 until end of turn.",
@@ -168,11 +168,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW06 \u2014 Sick Student",
+            "card_name": "Sick Student",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Child",
-            "number": 6,
+            "number": 11,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "When this creature enters, create a 1/1 white Child creature token.\nThis creature gets +1/+0 for each token you control.",
@@ -186,11 +186,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW01 \u2014 Novice Inspector",
+            "card_name": "Novice Inspector",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Detective",
-            "number": 1,
+            "number": 7,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When this creature enters, investigate. [i](Create a Clue token. It's an artifact with \u201c{2}, Sacrifice this artifact: Draw a card.\u201d)[/i]",
@@ -204,11 +204,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW04 \u2014 Offering White Dragon",
+            "card_name": "Offering White Dragon",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Dragon Advisor",
-            "number": 4,
+            "number": 8,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Flying\nWhenever this creature attacks, target creature you control without flying gains flying until end of turn.",
@@ -222,11 +222,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW08 \u2014 Space Coyote",
+            "card_name": "Space Coyote",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Spirit Coyote",
-            "number": 8,
+            "number": 12,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Flying\nWhen this creature enters, you may have a creature you control become your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -240,11 +240,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW07 \u2014 Lollypop Dancers",
+            "card_name": "Lollypop Dancers",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Illusion Bard",
-            "number": 7,
+            "number": 6,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Whenever you gain life, put a +1/+1 counter on this creature.\nWhen this creature enters, create a Food token. [i](It's an artifact with \u201c{2}, {T}, Sacrifice this artifact: You gain 3 life.\u201d)[/i]",
@@ -258,11 +258,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW03 \u2014 Happiest Man in Springfield",
+            "card_name": "Happiest Man in Springfield",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
-            "number": 3,
+            "number": 4,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When this creature enters, exile up to one target card in a graveyard.\n{1}, Sacrifice this creature: Destroy target artifact or enchantment.",
@@ -276,11 +276,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW05 \u2014 Religious Singer",
+            "card_name": "Religious Singer",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human",
-            "number": 5,
+            "number": 9,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this creature becomes a Bard, put a +1/+1 counter on it and you gain 3 life.\nRecognized Bard {4}{W} [i]({4}{W}: If this isn't a Bard, it gains that type. This ability costs {X} less to activate, where X is the highest mana value among Bards you control.)[/i]",
@@ -294,11 +294,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW13 \u2014 Capture the Moment",
+            "card_name": "Capture the Moment",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 13,
+            "number": 2,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
@@ -312,11 +312,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW12 \u2014 Kick Out Again",
+            "card_name": "Kick Out Again",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 12,
+            "number": 5,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Exile target creature you control, then return it to the battlefield under your control. You may have that creature enter as your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -330,11 +330,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW11 \u2014 Sunshine Ray",
+            "card_name": "Sunshine Ray",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 11,
+            "number": 13,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Sunshine Ray deals X damage to target attacking, blocking, or tapped creature, where X is 3 plus the amount of life you've gained this turn.",
@@ -348,11 +348,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU01 \u2014 Sparking Logo",
+            "card_name": "Sparking Logo",
             "color": "U",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Spirit",
-            "number": 14,
+            "number": 25,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flying, vigilance\nWhen this creature becomes a Fish, put two +1/+1 counters on it.\nRecognized Fish {4}{U} [i]({4}{U}: If this isn't a Fish, it gains that type. This ability costs {X} less to activate, where X is the highest mana value among Fish you control.)[/i]",
@@ -366,11 +366,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU03 \u2014 Conquering Dolphins",
+            "card_name": "Conquering Dolphins",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Whale Soldier",
-            "number": 16,
+            "number": 17,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "When this creature enters, surveil 1.\n{7}: Create a tapped token that's a copy of this creature.",
@@ -384,11 +384,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU08 \u2014 Burns' Flying Monkeys",
+            "card_name": "Burns' Flying Monkeys",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Monkey Minion",
-            "number": 21,
+            "number": 15,
             "color_identity": "U",
             "cost": "{5}{U}",
             "rules_text": "This spell costs {2} less to cast if you've committed a crime this turn. [i](Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)[/i]\nFlying",
@@ -402,7 +402,7 @@
             "notes": ""
         },
         {
-            "card_name": "CU06 \u2014 Giant Catfish",
+            "card_name": "Giant Catfish",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Fish",
@@ -420,7 +420,7 @@
             "notes": ""
         },
         {
-            "card_name": "CU13 \u2014 Totally Wrong Path",
+            "card_name": "Totally Wrong Path",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
@@ -438,11 +438,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU10 \u2014 Salad Song",
+            "card_name": "Salad Song",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 23,
+            "number": 24,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flash\nSing 4 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has four or more.)[/i]\nWhen this Song enters, and when you sacrifice it, tap target creature an opponent controls and put a stun counter on it.",
@@ -456,11 +456,11 @@
             "notes": "\u201cYou don't win friends with salad!\u201d\n\u2014Bart, Homer, and Marge Simpson"
         },
         {
-            "card_name": "CU09 \u2014 Bart's Trial",
+            "card_name": "Bart's Trial",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 22,
+            "number": 14,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Enchant creature\nEnchanted creature is a creature Cat. If you don't control it, it loses all abilities and has base power and toughness 1/1. [i](It loses all other card types and creature types.)[/i]",
@@ -474,11 +474,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU12 \u2014 Happy Birthday",
+            "card_name": "Happy Birthday",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 25,
+            "number": 20,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Sing 8 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has eight or more.)[/i]\nWhen this Song enters, draw two cards.\nWhen you sacrifice this Song, draw a card.",
@@ -492,11 +492,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU11 \u2014 Mental Delusions",
+            "card_name": "Mental Delusions",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 24,
+            "number": 22,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Choose one or both \u2014\n\u2022 Counter target spell.\n\u2022 A creature you control becomes your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -510,11 +510,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW10 \u2014 Bunk with Me Tonight",
+            "card_name": "Bunk with Me Tonight",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 10,
+            "number": 1,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Sing 6 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has six or more.)[/i]\nWhen this Song enters, and when you sacrifice it, put a +1/+1 counter on each of up to two target creatures.",
@@ -528,11 +528,11 @@
             "notes": "\u201cI'm askin', will you bunk with me tonight? I'm askin', will you bunk with me tonight?\u201d\n\u2014Lurleen Lumpkin"
         },
         {
-            "card_name": "CU04 \u2014 Clever Cat Burglar",
+            "card_name": "Clever Cat Burglar",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Elder Human Rogue",
-            "number": 17,
+            "number": 16,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Whenever you commit a crime for the first time each turn, put a +1/+1 counter on this creature. It can't be blocked this turn. [i](Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)[/i]",
@@ -546,11 +546,11 @@
             "notes": "Whenever you commit a crime, put a +1/+1 counter on this creature. This ability triggers only once each turn."
         },
         {
-            "card_name": "CU05 \u2014 Nuclear Physics Professor",
+            "card_name": "Nuclear Physics Professor",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Elder Human Scientist",
-            "number": 18,
+            "number": 23,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Mentor [i](Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)[/i]\n{2}: This creature has base power and toughness 1/4 until end of turn.",
@@ -564,11 +564,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU02 \u2014 Jazz Man",
+            "card_name": "Jazz Man",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 15,
+            "number": 21,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Sing 6 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has six or more.)[/i]\nWhen this Song enters and when you sacrifice it, create a 2/2 blue Bard creature token with prowess.",
@@ -582,7 +582,7 @@
             "notes": "\u201cWhen the jazzman's testifyin' a faithless man believes.\u201d\n\u2014Lisa Simpson and Bleeding Gums"
         },
         {
-            "card_name": "CB01 \u2014 Angel of Death",
+            "card_name": "Angel of Death",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Angel Assassin",
@@ -600,11 +600,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB11 \u2014 Report the Crime",
+            "card_name": "Report the Crime",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 37,
+            "number": 35,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "This spell cost {2} less if you've committed a crime this turn. [i](Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)[/i]\nTarget player discards two cards.",
@@ -618,11 +618,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB13 \u2014 Fall In Your Own Grave",
+            "card_name": "Fall In Your Own Grave",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 39,
+            "number": 30,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Return target creature from your graveyard to the battlefield. You may have that creature enter as your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -636,11 +636,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB02 \u2014 Rat Colony",
+            "card_name": "Rat Colony",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Rat",
-            "number": 28,
+            "number": 34,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "This creature gets +1/+0 for each other Rat you control.\nA deck can have any number of cards named Rat Colony.",
@@ -654,7 +654,7 @@
             "notes": ""
         },
         {
-            "card_name": "CB07 \u2014 Krusty Burglar",
+            "card_name": "Krusty Burglar",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
@@ -672,11 +672,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB05 \u2014 Town Zombies",
+            "card_name": "Town Zombies",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Zombie Citizen",
-            "number": 31,
+            "number": 38,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "{1}{B}, Exile this card from your graveyard: A creature you control become your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -690,7 +690,7 @@
             "notes": ""
         },
         {
-            "card_name": "CB03 \u2014 Cult Leader",
+            "card_name": "Cult Leader",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue Pilot",
@@ -712,7 +712,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Springfield",
-            "number": 83,
+            "number": 82,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {W} or {B}.\n{3}{W}{B}, {T}: A creature you control becomes your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -730,7 +730,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Springfield",
-            "number": 85,
+            "number": 84,
             "color_identity": "UG",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {G} or {U}.\n{3}{G}{U}, {T}: A creature you control becomes your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -766,7 +766,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Springfield",
-            "number": 86,
+            "number": 85,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {R} or {W}.\n{3}{R}{W}, {T}: A creature you control becomes your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -784,7 +784,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Springfield",
-            "number": 84,
+            "number": 83,
             "color_identity": "RG",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {R} or {G}.\n{3}{R}{G}, {T}: A creature you control becomes your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -870,11 +870,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB04 \u2014 Road Hitchhiker",
+            "card_name": "Road Hitchhiker",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Citizen",
-            "number": 30,
+            "number": 36,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Deathtouch",
@@ -888,11 +888,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB12 \u2014 Weeeeeh!",
+            "card_name": "Weeeeeh!",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 38,
+            "number": 39,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Sing 4 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has four or more.)[/i]\nWhen this Song enters, destroy up to one target creature or planeswalker.\nWhen you sacrifice this Song, you gain 2 life.",
@@ -906,11 +906,11 @@
             "notes": "\u201cMust... Kill... Moe... Wheeeeee!\u201d\n\u2014Homer Simpson"
         },
         {
-            "card_name": "CB10 \u2014 Some Enchanted Evening",
+            "card_name": "Some Enchanted Evening",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 36,
+            "number": 37,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Target player sacrifices a creature token of their choice. Then that player sacrifices a creature of their choice.",
@@ -924,11 +924,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW09 \u2014 Say the Line",
+            "card_name": "Say the Line",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 9,
+            "number": 10,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Target creature you control gets +2/+2 until end of turn. If that creature is legendary or a main character, it gains indestructible and hexproof until end of turn.",
@@ -942,11 +942,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB08 \u2014 Hopeful Rope",
+            "card_name": "Hopeful Rope",
             "color": "B",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
-            "number": 34,
+            "number": 32,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Equipped creature gets +1/+1.\n{3}{B}, {T}, Sacrifice this artifact: Return up to two target creature cards from your graveyard to your hand.\nEquip {1}",
@@ -964,7 +964,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Springfield",
-            "number": 87,
+            "number": 86,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {U} or {R}.\n{3}{U}{R}, {T}: A creature you control becomes your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -978,11 +978,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB06 \u2014 Burns' Hounds",
+            "card_name": "Burns' Hounds",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Dog",
-            "number": 32,
+            "number": 28,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "This creature has menace as long as you've committed a crime this turn. [i](Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)[/i]",
@@ -996,11 +996,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR01 \u2014 Racer Kids",
+            "card_name": "Racer Kids",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Child",
-            "number": 40,
+            "number": 48,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "When this creature becomes a Pilot, put two +1/+1 counters on it. You may discard a card. If you do, draw a card.\nRecognized Pilot {4}{R} [i]({4}{R}: If this isn't a Pilot, it gains that type. This ability costs {X} less to activate, where X is the highest mana value among Pilots you control.)[/i]",
@@ -1014,11 +1014,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR07 \u2014 Gliding Lizards",
+            "card_name": "Gliding Lizards",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Lizard",
-            "number": 46,
+            "number": 45,
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "Reach\nWhenever another creature you control enters, this creature deals 1 damage to target player.",
@@ -1032,11 +1032,11 @@
             "notes": "\u201cWow did you know they had those whip slaps for gliding? \u2014Yes, but I was hoping they didn't know that.\u201d\n\u2014Lisa, to Skinner"
         },
         {
-            "card_name": "CR08 \u2014 Gang Leader",
+            "card_name": "Gang Leader",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Pilot Rogue",
-            "number": 47,
+            "number": 44,
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Haste\nWhenever you commit a crime for the first time each turn, put a +1/+1 counter on this creature. [i](Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)[/i]",
@@ -1050,11 +1050,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR03 \u2014 Classroom Hamster",
+            "card_name": "Classroom Hamster",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Hamster",
-            "number": 42,
+            "number": 40,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "When this creature enters, you may discard a card. If you do, return an instant or sorcery card from your graveyard to your hand.",
@@ -1068,11 +1068,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR04 \u2014 Posthumous Professor",
+            "card_name": "Posthumous Professor",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Advisor",
-            "number": 43,
+            "number": 47,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Mentor [i](Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)[/i]\nWhen this creature dies, put a +1/+1 counter on target creature you control with a +1/+1 counter on it.",
@@ -1104,11 +1104,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR09 \u2014 Strangle",
+            "card_name": "Strangle",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 48,
+            "number": 49,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Strangle deals 3 damage to target creature or planeswalker.",
@@ -1122,11 +1122,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR13 \u2014 Flaming Moe's",
+            "card_name": "Flaming Moe's",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 52,
+            "number": 43,
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Sing 6 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has six or more.)[/i]\nWhen this Song enters, it deals 6 damage to target creature an opponent controls.\nWhen you sacrifice this Song, it deals 2 damage to target opponent.",
@@ -1140,11 +1140,11 @@
             "notes": "\u201cHappiness is just a Flaming Moe away!\u201d"
         },
         {
-            "card_name": "CR10 \u2014 We Do!",
+            "card_name": "We Do!",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 49,
+            "number": 52,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Sing 4 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has four or more.)[/i]\nWhen this Song enters, and when you sacrifice it, exile the top card of your library. Until the end of your next turn, you may play that card.",
@@ -1158,11 +1158,11 @@
             "notes": "\u201cWho keeps the metric system down?\u201d"
         },
         {
-            "card_name": "CR12 \u2014 Through the Window",
+            "card_name": "Through the Window",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 51,
+            "number": 50,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Choose one \u2014\n\u2022 Creatures you control get +2/+0 until end of turn.\n\u2022 Target creature you control deals damage equal to its power to any other target. Then sacrifice it.",
@@ -1176,11 +1176,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR02 \u2014 Veteran Soldier",
+            "card_name": "Veteran Soldier",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
-            "number": 41,
+            "number": 51,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Ward\u2014Pay 2 life",
@@ -1194,11 +1194,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR05 \u2014 Namesharing Customers",
+            "card_name": "Namesharing Customers",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Guest",
-            "number": 44,
+            "number": 46,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "When this creature enters, create a 1/1 white Child creature token.",
@@ -1212,11 +1212,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR04 \u2014 Springfield Panorama",
+            "card_name": "Springfield Panorama",
             "color": "",
             "rarity": "common",
             "type": "Land \u2014 Springfield",
-            "number": 82,
+            "number": 87,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{1}, {T}: Add one mana of any color. This ability costs {1} less to activate if you control a creature that's legendary or a main character.",
@@ -1230,11 +1230,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR06 \u2014 Country Singer",
+            "card_name": "Country Singer",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Bard",
-            "number": 45,
+            "number": 41,
             "color_identity": "R",
             "cost": "{3}{R}",
             "rules_text": "When this creature enters, you may have a creature you control become your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -1248,11 +1248,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR11 \u2014 Fire in the Office",
+            "card_name": "Fire in the Office",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 50,
+            "number": 42,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Fire in the Office deals 4 damage to target creature. If that creature is legendary or a main character, you may have a creature you control become your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -1266,11 +1266,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG13 \u2014 Chair Throw",
+            "card_name": "Chair Throw",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 65,
+            "number": 55,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "This spell cost {2} less to cast if it targets a creature an opponent controls that's legendary or a main character.\nTarget creature you control deals damage equal to twice its power to target creature you don't control.",
@@ -1284,11 +1284,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG12 \u2014 Peach Tree Song",
+            "card_name": "Peach Tree Song",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Song",
-            "number": 64,
+            "number": 61,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Sing 4 [i](Whenever you attack, put a number of verse counters on this equal to the total attacking power. Then you may sacrifice this if it has four or more.)[/i]\nWhen this Song enters and you sacrifice it, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
@@ -1302,11 +1302,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG02 \u2014 Familiar Hedge",
+            "card_name": "Familiar Hedge",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Plant",
-            "number": 54,
+            "number": 58,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{T}: Add {G}. If you control a creature that's legendary or a main character, add {G}{G} instead.",
@@ -1320,11 +1320,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG11 \u2014 Old Man Yells at Cloud",
+            "card_name": "Old Man Yells at Cloud",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 63,
+            "number": 60,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Choose one \u2014\n\u2022 Destroy target creature with flying.\n\u2022 A creature you control becomes your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -1338,11 +1338,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG10 \u2014 All Hail King Homer",
+            "card_name": "All Hail King Homer",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 62,
+            "number": 53,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Until end of turn, target creature you control becomes a Giant, gets +3/+3, and gains trample and \u201cWhenever this creature deals combat damage to a player, create a Treasure token.\u201d",
@@ -1356,11 +1356,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG04 \u2014 Doughnut Robber",
+            "card_name": "Doughnut Robber",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Monkey Rogue",
-            "number": 56,
+            "number": 57,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Reach\nWhen this creature enters, create a Food token. [i](It's an artifact with \u201c{2}, {T}, Sacrifice this artifact: You gain 3 life.\u201d)[/i]",
@@ -1374,11 +1374,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG06 \u2014 Screaming Caterpillar",
+            "card_name": "Screaming Caterpillar",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Insect",
-            "number": 58,
+            "number": 63,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "This creature must be blocked if able.\nWhen this creature dies, you may have a creature you control become your main character. [i](If a triggered ability of a main character triggers, it triggers an additional time. You can only have one at a time.)[/i]",
@@ -1392,11 +1392,11 @@
             "notes": "\u201cYou sure God doesn't want it to to be dead?\u201d\n\u2014Homer Simpson"
         },
         {
-            "card_name": "CG08 \u2014 Bart's Elephant",
+            "card_name": "Bart's Elephant",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Elephant",
-            "number": 60,
+            "number": 54,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "When this creature enters, put three +1/+1 counters on target creature you control.\nEach creature you control with a +1/+1 counter on it has trample.",
@@ -1410,11 +1410,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG09 \u2014 Cute Pick",
+            "card_name": "Cute Pick",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 61,
+            "number": 56,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Mill two cards. Put a permanent card from among the milled cards into your hand.\nFlashback {4}{G}{G} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -1428,11 +1428,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG03 \u2014 Intimidating Horse",
+            "card_name": "Intimidating Horse",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Horse",
-            "number": 55,
+            "number": 59,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "This creature can't be blocked by creatures with power 2 or less.\nWhen this creature becomes a Rebel, put X +1/+1 counters on it, where X is its power.\nRecognized Rebel {5}{G} [i]({5}{G}: If this isn't a Rebel, it gains that type. This ability costs {X} less to activate, where X is the highest mana value among Rebels you control.)[/i]",
@@ -1464,11 +1464,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG01 \u2014 Whacking Day",
+            "card_name": "Whacking Day",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 53,
+            "number": 65,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Create a 1/1 green Snake creature token.\nFlashback {3}{G} [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -1482,11 +1482,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG05 \u2014 Pool Lion",
+            "card_name": "Pool Lion",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Cat",
-            "number": 57,
+            "number": 62,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Vigilance\nWhenever another creature you control enters, this creature gets +1/+1 until end of turn.",
@@ -1500,11 +1500,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG07 \u2014 Springfield's Veterinarian",
+            "card_name": "Springfield's Veterinarian",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Doctor",
-            "number": 59,
+            "number": 64,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Whenever this creature attacks, another attacking target creature you control gains indestructible until end of turn.",
@@ -1518,11 +1518,11 @@
             "notes": ""
         },
         {
-            "card_name": "CC01 \u2014 Grammar-Correcting Robot",
+            "card_name": "Grammar-Correcting Robot",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Robot",
-            "number": 76,
+            "number": 78,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When this creature enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. If you control a creature that's legendary or a main character, put that card onto the battlefield tapped instead.",
@@ -1536,11 +1536,11 @@
             "notes": "\u201cMe... Love... Beer...\nI love beer.\u201d\n\u2014Homer, to Linguo"
         },
         {
-            "card_name": "CC02 \u2014 Substitute Worker",
+            "card_name": "Substitute Worker",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Scarecrow",
-            "number": 77,
+            "number": 80,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "When this creature becomes an Employee, put two +1/+1 counters on it and create a Treasure token.\nRecognized Employee {6} [i]({6}: If this isn't an Employee, it gains that type. This ability costs {X} less to activate, where X is the highest mana value among Employees you control.)[/i]",
@@ -1554,11 +1554,11 @@
             "notes": ""
         },
         {
-            "card_name": "CC06 \u2014 Founder Statue",
+            "card_name": "Founder Statue",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
-            "number": 80,
+            "number": 77,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "{T}: Add one mana of any color.\nWhenever a creature you control enters as a main character, or a creature you control becomes a main character, put a +1/+1 counter on it.",
@@ -1572,7 +1572,7 @@
             "notes": ""
         },
         {
-            "card_name": "CC05 \u2014 Lie Detector Machine",
+            "card_name": "Lie Detector Machine",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -1590,11 +1590,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU07 \u2014 Crushing Squid",
+            "card_name": "Crushing Squid",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Squid",
-            "number": 20,
+            "number": 18,
             "color_identity": "U",
             "cost": "{4}{U}",
             "rules_text": "When this creature enters or becomes a Giant, tap target creature an opponent controls an put a stun counter on it.\nRecognized Giant {5}{U} [i]({5}{U}: If this isn't a Giant, it gains that type. This ability costs {X} less to activate, where X is the highest mana value among Giants you control.)[/i]",
@@ -1608,11 +1608,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB09 \u2014 Good Bye New York",
+            "card_name": "Good Bye New York",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 35,
+            "number": 31,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature gets -X/-X until end of turn, where X is 2 plus the number of Springfield land you control.",
@@ -1626,11 +1626,11 @@
             "notes": ""
         },
         {
-            "card_name": "CC03 \u2014 Car Wreck",
+            "card_name": "Car Wreck",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
-            "number": 78,
+            "number": 76,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "Crew 2\n{2}, Exile this card from your graveyard: Target creature loses all creature types. If you don't control that creature, it can't also gain new creature types. Activate only as a sorcery.",
