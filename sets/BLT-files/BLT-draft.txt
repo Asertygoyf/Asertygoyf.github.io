@@ -2743,7 +2743,7 @@
 	2 Will of the Burrow
 	2 Muscle Mutation
 	1 Coordinated Confrontation
-[uncommon(4)]
+[uncommon(3)]
 	4 Chromatic Potion
 	4 Supporter Gecko
 	4 Cavefolk Elder
@@ -2844,7 +2844,7 @@
 	4 Rockface Together
 	4 Lupinflower Bell
 	4 Upside-Down Book
-[common(7)]
+[common(8)]
 	8 Unified Quest
 	8 Prairie Seer
 	8 Sturdy Quail
